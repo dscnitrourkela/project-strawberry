@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function About() {
+const About= ()=> {
   return (
-    <div>about</div>
+    <div>This section has to be edited</div>
   )
 }
+
+export default About
