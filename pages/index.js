@@ -1,6 +1,6 @@
 import React from 'react'
+import About from '../components/about'
 import { Container } from '../styles/Common.styles'
 
-const IndexPage = () => <Container>Hello World</Container>
-
+const IndexPage = () => <About/>
 export default IndexPage
