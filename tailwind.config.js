@@ -4,6 +4,11 @@ module.exports = {
       colors: {
         electric: '#db00ff',
         ribbon: '#0047ff',
+        'color-primary' : '#486FFD',
+        'color-secondary' : '#496DF2',
+        'color-tertiary' : '#375DE5',
+        'bg-primary' : '#1B1E1F',
+        'bg-secondary' : '#363839'
       },
       fontFamily: {
         poppins: ['Poppins'],
