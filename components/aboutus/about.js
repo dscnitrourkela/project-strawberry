@@ -30,18 +30,27 @@ ${
   w-96
   p-4
   text-white
-   ` 
+  ` 
 }
-width: '500vw',
-padding:'0.5vw',
-border:'1px solid red',
-borderColor:'red'
+width: 500vw,
+padding:0.5vw,
+border : 1px solid red
 `;
 /*function TextBox(){
   return( TextB);
 
 }
 */
+
+const Flexcntn = styled.div`
+  ${
+    tw`
+    
+    `
+  }
+  display : 'flex',
+`;
+
 function Img(){
     return (<img src={'https://res.cloudinary.com/dxsyc4p2j/image/upload/v1675165055/Rectangle_4492_mqcxrv.png'} ></img>);
 }
@@ -53,12 +62,11 @@ ${
   text-white
   border-b-2
   border-white
-  p-1.5
+  p-2
    ` 
 }
-color: '486FFD',
-borderBottom: '1px',
-borderColor: '486FFD'
+color : 486FFD,
+
 `;
 
 export default function About() {
@@ -66,12 +74,17 @@ export default function About() {
     <>
     <Cntn>
       <Headi>About Us</Headi>
+      <Flexcntn>
       <Img/>
       <TextB>Hooked up with Design is to trigger your potential to come up with effective and attractive business design ideas to increase customer acquisition and retention rate. 
       It aims to provide business scenarios inspired by real-life cases and challenge teams to use design thinking principles to devise suitable approaches that hold the potential to disrupt the market. 
       Even today, companies overlook the importance of business design and steer their thoughts only in the direction of growing revenue and profit margins.  </TextB>
-
+      </Flexcntn>
     </Cntn>
     </>
   )
 }
+
+;
+console.log(typeof(TextB));
+console.log(Headi);
