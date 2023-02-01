@@ -11,7 +11,7 @@ module.exports = {
         'bg-secondary' : '#363839'
       },
       fontFamily: {
-        poppins: ['Poppins'],
+        Inter: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       dropShadow: {
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
