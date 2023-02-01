@@ -1,5 +1,5 @@
 import React from 'react'
-import About from '../components/about'
+import About from '../components/aboutus/about'
 import { Container } from '../styles/Common.styles'
 
 const IndexPage = () => <About/>
