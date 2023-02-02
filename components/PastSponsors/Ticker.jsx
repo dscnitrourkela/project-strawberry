@@ -1,7 +1,7 @@
 import React from 'react'
-import { Heading3, SectionLayout } from '../shared'
+import { SectionLayout } from '../shared'
 
-import sponsors from '../../config/content/PastSponsors/SponsorItems'
+import sponsors from '../../config/content/SponsorItems'
 import {
   TickerContainer,
   TickerMover,
@@ -9,7 +9,7 @@ import {
   TickerIcon,
   SectionTitle,
   Underline,
-} from './styles'
+} from '../../styles/sponsors.style'
 
 function TickerItem({ source, alt, size }) {
   return (

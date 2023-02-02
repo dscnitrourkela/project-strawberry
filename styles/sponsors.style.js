@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components'
 import tw from 'twin.macro'
-import { Heading3 } from '../shared'
+import { Heading3 } from '../components/shared'
 
 export const TickerContainer = styled.div`
   ${tw`

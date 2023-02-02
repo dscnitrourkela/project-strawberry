@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import styled from 'styled-components'
 import { Body1, Heading3, SectionLayout } from '../shared'
 import {
   Container,
@@ -8,7 +7,7 @@ import {
   FaqMap,
   Image,
   Underline,
-} from './styles.jsx'
+} from '../../styles/faq.styles'
 import { FaqData } from '../../config/index.js'
 
 function FaqSection() {
