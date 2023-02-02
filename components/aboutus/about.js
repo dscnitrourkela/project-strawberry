@@ -29,35 +29,31 @@ margin:'2vw'
 const TextB = styled.p`
 ${
   tw`
-  w-5/12
+  w-6/12
   p-4
   text-white
   
   ` 
 }
-width: 500vw,
-padding:0.5vw,
-border : 1px solid red
+border : 1px solid white
 `;
-/*function TextBox(){
-  return( TextB);
-
-}
-*/
 
 const Flexcntn = styled.div`
   ${
     tw`
     inline-flex
     flex-row
-    p-5
+    px-9
+    py-5
     justify-around
     m-5
     w-full
     `
   }
-  display : flex,
-  justify-content : center
+  display : flex;
+  justify-content : center;
+  justify-content: space-around;
+  align-items : center;
 `;
 
 function Img(){
@@ -68,13 +64,14 @@ function Img(){
 const Headi = styled.span`
 ${
   tw`
+  w-10
   text-white
   border-b-2
-  border-white
   p-2
    ` 
 }
-
+border-color: #486FFD ;
+width : 20vw;
 `;
 
 const Headercntn = styled.div`
@@ -103,5 +100,5 @@ export default function About() {
 }
 
 ;
-console.log(typeof(TextB));
-console.log(Headi);
+//console.log(typeof(TextB));
+//console.log(Headi);
