@@ -32,7 +32,6 @@ ${
   w-5/12
   p-4
   text-white
-  border
   
   ` 
 }
@@ -53,7 +52,6 @@ const Flexcntn = styled.div`
     flex-row
     p-5
     justify-around
-    border
     m-5
     w-full
     `
