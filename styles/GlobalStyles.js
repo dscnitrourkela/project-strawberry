@@ -10,6 +10,12 @@ const customStyles = css({
 
 const GlobalStyles = () => (
   <>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <BaseStyles />
     <Global styles={customStyles} />
   </>
