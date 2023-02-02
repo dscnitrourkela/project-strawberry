@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
+import Heading3 from "../shared/Typography/Heading3";
 
 /*function Contain() {
     let cntn ={
@@ -29,13 +30,14 @@ margin:'2vw'
 const TextB = styled.p`
 ${
   tw`
-  w-6/12
+  h-[216px]
+  w-[574px]
   p-4
   text-white
-  
+  m-8
   ` 
 }
-border : 1px solid white
+text-align: justify;
 `;
 
 const Flexcntn = styled.div`
@@ -43,7 +45,7 @@ const Flexcntn = styled.div`
     tw`
     inline-flex
     flex-row
-    px-9
+    px-28
     py-5
     justify-around
     m-5
@@ -71,23 +73,23 @@ ${
    ` 
 }
 border-color: #486FFD ;
-width : 20vw;
+width : 100px;
 `;
 
 const Headercntn = styled.div`
 ${
   tw`
   p-2
+  border
   `
 }
-
 `;
 
 export default function About() {
   return (
     <>
     <Cntn>
-    <Headercntn><Headi>About Us</Headi></Headercntn>
+    <Headercntn><Heading3 style={{border: '1px'}}><Headi>About Us</Headi></Heading3></Headercntn>
       <Flexcntn>
       <Img/>
       <TextB>Hooked up with Design is to trigger your potential to come up with effective and attractive business design ideas to increase customer acquisition and retention rate. 

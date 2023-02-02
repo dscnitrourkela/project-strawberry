@@ -6,8 +6,6 @@ export default styled.h3`
   ${tw` 
    text-xl
    leading-6 
-
-   sm:text-3.5xl
    sm:leading-9
 `}
 `
