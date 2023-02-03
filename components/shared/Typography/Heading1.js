@@ -8,5 +8,7 @@ export default styled.h1`
    leading-9
    sm:text-6xl
    sm:leading-12
+   font-Inter
+
 `}
 `

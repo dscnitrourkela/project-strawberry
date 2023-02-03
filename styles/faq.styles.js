@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import tw from 'twin.macro'
+import { Body1 } from '../components/shared'
 
 export const Container = styled.section`
   ${tw`
@@ -61,7 +62,8 @@ export const Underline = styled.div`
     lg:mb-24
 `}
 `
-export const FaqQuestion = styled.div`
+export const FaqQuestion = styled(Body1)`
+  color: #e8e8e8;
   @media screen and (max-width: 437px) {
     width: 250px;
   }

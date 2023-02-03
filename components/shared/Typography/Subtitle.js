@@ -8,5 +8,7 @@ export default styled.p`
    leading-4
    sm:text-sm
    sm:leading-6
+   font-Inter
+
 `}
 `
