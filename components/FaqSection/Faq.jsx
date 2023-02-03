@@ -7,6 +7,7 @@ import {
   FaqMap,
   Image,
   Underline,
+  FaqQuestion,
 } from '../../styles/faq.styles'
 import { FaqData } from '../../config/index.js'
 
@@ -31,9 +32,9 @@ function FaqSection() {
             {FaqData.questions.map((item, index) => (
               <FaqMap key={index} onClick={() => toggleAccordion(index)}>
                 <FaqHead>
-                  <Body1 className={accordion === index ? 'active' : ''}>
+                  <FaqQuestion className={accordion === index ? 'active' : ''}>
                     {item.question}
-                  </Body1>
+                  </FaqQuestion>
                   <div>
                     {accordion === index ? (
                       <Image src={FaqData.images.uparrow} alt="" />

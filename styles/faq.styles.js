@@ -14,6 +14,8 @@ export const Image = styled.img`
   h-5
   w-5
   cursor-pointer
+  relative
+  z-1
 `}
 `
 export const FaqContainer = styled.div`
@@ -58,4 +60,12 @@ export const Underline = styled.div`
     sm:w-[135px]
     lg:mb-24
 `}
+`
+export const FaqQuestion = styled.div`
+  @media screen and (max-width: 437px) {
+    width: 250px;
+  }
+  @media screen and (max-width: 328px) {
+    width: 200px;
+  }
 `
