@@ -3,41 +3,36 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import Heading3 from "../shared/Typography/Heading3";
 
-/*function Contain() {
-    let cntn ={
-        backgroundColor:'#1B1E1F', color:'#FFFFFF',padding:'3vw',margin:'2vw'
-    }
-  return (
-    <div style={cntn}> this part is printing</div>
-  )
-}*/
 
 const Cntn = styled.div`
 ${
   tw`
-  bg-black
+  bg-[#1B1E1F]
   m-auto
   p-5
   `
 }
-backgroundColor:'#1B1E1F', 
-color:'#FFFFFF',
-padding:'3vw',
-margin:'2vw'
-`
 
+`
 
 const TextB = styled.p`
 ${
   tw`
   h-[216px]
   w-[574px]
-  p-4
+  p-8
   text-white
   m-8
+  text-justify
+  h-full
+  
   ` 
 }
-text-align: justify;
+word-wrap:break-word;
+@media only screen and (max-width:750px){
+  border : 2.5px solid #486FFD;
+  border-radius: 10px;
+}
 `;
 
 const Flexcntn = styled.div`
@@ -45,42 +40,59 @@ const Flexcntn = styled.div`
     tw`
     inline-flex
     flex-row
-    px-28
     py-5
     justify-around
-    m-5
+    mt-5
     w-full
+    items-center
+    border
     `
   }
   display : flex;
   justify-content : center;
   justify-content: space-around;
-  align-items : center;
+
+  @media only screen and (min-width:1000px){
+    padding: 20px 112px 20px 112px;
+  }
+  @media only screen and (max-width:1000px){
+    padding:0px;
+  }
+
 `;
 
 function Img(){
     return (<img src={'https://res.cloudinary.com/dxsyc4p2j/image/upload/v1675165055/Rectangle_4492_mqcxrv.png'} ></img>);
 }
 
+const ImgContainer = styled.div`
+${
+  tw`
+  flex
+  `
+}
+width: 562px;
+@media only screen and (max-width:800px){
+  display :none;
+}
+`
       
 const Headi = styled.span`
 ${
   tw`
-  w-10
   text-white
-  border-b-2
-  p-2
+  border-b-4
+  pr-10
    ` 
 }
 border-color: #486FFD ;
-width : 100px;
+padding: 8px 50px 8px 8px;
 `;
 
 const Headercntn = styled.div`
 ${
   tw`
   p-2
-  border
   `
 }
 `;
@@ -89,13 +101,15 @@ export default function About() {
   return (
     <>
     <Cntn>
-    <Headercntn><Heading3 style={{border: '1px'}}><Headi>About Us</Headi></Heading3></Headercntn>
-      <Flexcntn>
-      <Img/>
+    <Headercntn>
+      <Heading3><Headi>About Us</Headi></Heading3>
+    </Headercntn>
+    <Flexcntn>
+      <ImgContainer><Img/></ImgContainer>
       <TextB>Hooked up with Design is to trigger your potential to come up with effective and attractive business design ideas to increase customer acquisition and retention rate. 
       It aims to provide business scenarios inspired by real-life cases and challenge teams to use design thinking principles to devise suitable approaches that hold the potential to disrupt the market. 
       Even today, companies overlook the importance of business design and steer their thoughts only in the direction of growing revenue and profit margins.  </TextB>
-      </Flexcntn>
+    </Flexcntn>
     </Cntn>
     </>
   )
@@ -103,4 +117,4 @@ export default function About() {
 
 ;
 //console.log(typeof(TextB));
-//console.log(Headi);
+//console.log(Heading3);

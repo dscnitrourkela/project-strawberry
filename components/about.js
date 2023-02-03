@@ -3,6 +3,17 @@ import React from 'react'
 //import ARect from './rect';
 import TextBox from './styles'
 
+
+/*function Contain() {
+    let cntn ={
+        backgroundColor:'#1B1E1F', color:'#FFFFFF',padding:'3vw',margin:'2vw'
+    }
+  return (
+    <div style={cntn}> this part is printing</div>
+  )
+}*/
+
+
 let hst={
   color: '486FFD',
   borderBottom: '1px',
