@@ -4,7 +4,7 @@ import tw from "twin.macro";
 import Heading3 from "../shared/Typography/Heading3";
 
 
-const Cntn = styled.div`
+const MainContainer = styled.div`
 ${
   tw`
   bg-[#1B1E1F]
@@ -12,15 +12,14 @@ ${
   p-5
   `
 }
-
 `
 
 const TextB = styled.p`
 ${
   tw`
-  h-[216px]
+  h-[220px]
   w-[574px]
-  p-8
+  p-10
   text-white
   m-8
   text-justify
@@ -42,21 +41,23 @@ const Flexcntn = styled.div`
     flex-row
     py-5
     justify-around
-    mt-5
+    
     w-full
     items-center
-    border
+    
     `
   }
   display : flex;
   justify-content : center;
   justify-content: space-around;
 
-  @media only screen and (min-width:1000px){
+  @media only screen and (min-width:1200px){
     padding: 20px 112px 20px 112px;
+    margin-top: 20px;
   }
-  @media only screen and (max-width:1000px){
+  @media only screen and (max-width:1200px){
     padding:0px;
+    margin-top : 10px;
   }
 
 `;
@@ -100,7 +101,7 @@ ${
 export default function About() {
   return (
     <>
-    <Cntn>
+    <MainContainer>
     <Headercntn>
       <Heading3><Headi>About Us</Headi></Heading3>
     </Headercntn>
@@ -110,7 +111,7 @@ export default function About() {
       It aims to provide business scenarios inspired by real-life cases and challenge teams to use design thinking principles to devise suitable approaches that hold the potential to disrupt the market. 
       Even today, companies overlook the importance of business design and steer their thoughts only in the direction of growing revenue and profit margins.  </TextB>
     </Flexcntn>
-    </Cntn>
+    </MainContainer>
     </>
   )
 }
