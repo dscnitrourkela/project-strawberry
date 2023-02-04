@@ -13,7 +13,7 @@ import {
   NavLinks,
   NavLinksContainer,
   StyledHamburger,
-} from '../../../styles/NavBar.styles'
+} from '../../../styles/navbar.styles'
 
 const NavBar = () => {
   const menuContext = useContext(MenuContext)

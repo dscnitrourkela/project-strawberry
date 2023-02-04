@@ -1,6 +1,6 @@
 import React from 'react'
 import ButtonText from './Typography/Button'
-import { Btn } from '../../styles/NavBar.styles'
+import { Btn } from '../../styles/navbar.styles'
 
 const Button = props => {
   return (
