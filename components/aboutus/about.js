@@ -31,6 +31,7 @@ word-wrap:break-word;
 @media only screen and (max-width:750px){
   border : 2.5px solid #486FFD;
   border-radius: 10px;
+  padding: 4vw;
 }
 `;
 
@@ -39,11 +40,12 @@ const Flexcntn = styled.div`
     tw`
     inline-flex
     flex-row
-    py-5
+    
     justify-around
     
     w-full
     items-center
+   
     
     `
   }
@@ -53,11 +55,10 @@ const Flexcntn = styled.div`
 
   @media only screen and (min-width:1200px){
     padding: 20px 112px 20px 112px;
-    margin-top: 20px;
+    
   }
   @media only screen and (max-width:1200px){
     padding:0px;
-    margin-top : 10px;
   }
 
 `;
@@ -94,6 +95,7 @@ const Headercntn = styled.div`
 ${
   tw`
   p-2
+  mb-5
   `
 }
 `;
