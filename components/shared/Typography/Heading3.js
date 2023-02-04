@@ -9,5 +9,6 @@ export default styled.h3`
 
    sm:text-3.5xl
    sm:leading-9
+   font-Inter
 `}
 `

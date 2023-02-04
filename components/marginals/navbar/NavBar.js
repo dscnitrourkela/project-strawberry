@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
-import Btn from './Button'
+import React, { useContext } from 'react'
+import Btn from '../../shared/Button'
 import navbar from '../../../config/content/navbar'
 import NavText from '../../shared/Typography/Button'
+import { MenuContext } from './MenuContext'
 
 import {
   NavContainer,
@@ -9,13 +10,18 @@ import {
   Nav,
   LogoContainer,
   Logo,
-  HamburgerContainer,
   NavLinks,
-  NavLinksContainer
-} from './styles'
+  NavLinksContainer,
+  StyledHamburger,
+} from '../../../styles/NavBar.styles'
 
 const NavBar = () => {
-  let [open, setOpen] = useState(false)
+  const menuContext = useContext(MenuContext)
+  const { toggleMenuOpen, menuOpen } = menuContext
+
+  const handleClick = () => {
+    toggleMenuOpen(false)
+  }
 
   return (
     <Nav>
@@ -24,14 +30,12 @@ const NavBar = () => {
           <Logo src={navbar.logo.src} alt={navbar.logo.alt} />
         </LogoContainer>
 
-        <HamburgerContainer onClick={() => setOpen(!open)}>
-          <img src={navbar.hamburger.src} alt={navbar.hamburger.alt} />
-        </HamburgerContainer>
+        <StyledHamburger menuOpen={menuOpen} onClick={toggleMenuOpen} />
 
-        <NavLinks className={` ${open ? 'open-nav' : 'closed-nav'}`}>
+        <NavLinks className={` ${menuOpen ? 'open-nav' : 'closed-nav'}`}>
           {navbar.Links.map(link => (
-            <NavLinksContainer key={link.name} id={link.id}>
-              <NavLink href={link.link}>
+            <NavLinksContainer key={link.name}>
+              <NavLink href={link.link} onClick={handleClick}>
                 <NavText>{link.name}</NavText>
               </NavLink>
             </NavLinksContainer>

@@ -9,5 +9,6 @@ export default styled.h4`
 
    sm:text-2xl
    sm:leading-7
+   font-Inter
 `}
 `
