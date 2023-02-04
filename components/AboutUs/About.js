@@ -7,13 +7,8 @@ import Body1 from "../shared/Typography/Body1";
 import Body2 from "../shared/Typography/Body2";
 
 //components
-import { MainContainer } from "./styles";
-import { Headercntn } from "./styles";
-import { Headi } from "./styles";
-import { Flexcntn } from "./styles";
-import { ImgContainer } from "./styles";
-import { Img } from "./styles";
-import { TextBox } from "./styles";
+import { MainContainer, Headercntn, Headi, Flexcntn, ImgContainer, Img, TextBox } from "../../styles/aboutus.styles";
+
 
 
 export default function About() {
