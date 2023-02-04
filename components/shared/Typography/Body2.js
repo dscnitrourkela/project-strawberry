@@ -9,5 +9,7 @@ export default styled.p`
    
    sm:text-base
    sm:leading-6
+   font-Inter
+
 `}
 `
