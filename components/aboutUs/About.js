@@ -104,7 +104,7 @@ ${
   ` 
 }
 word-wrap:break-word;
-@media only screen and (max-width:750px){
+@media only screen and (max-width:800px){
   border : 2.5px solid #486FFD;
   border-radius: 10px;
   padding: 4vw;
