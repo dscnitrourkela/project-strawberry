@@ -16,6 +16,8 @@ import {
 } from '../../../styles/navbar.styles'
 
 const NavBar = () => {
+  // using menuContext to control nav opening
+
   const menuContext = useContext(MenuContext)
   const { toggleMenuOpen, menuOpen } = menuContext
 

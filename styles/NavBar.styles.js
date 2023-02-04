@@ -98,7 +98,7 @@ export const StyledHamburger = styled.button`
   }
 `
 
-/* Tailwind CSS properties */
+/* Tailwind CSS */
 
 export const Nav = styled.nav`
   ${tw`
