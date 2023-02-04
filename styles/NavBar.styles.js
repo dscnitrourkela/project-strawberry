@@ -25,7 +25,7 @@ export const NavContainer = styled.div`
     }
   }
   .closed-nav {
-    top: -580px;
+    top: -1080px;
     @media (max-width: 1024px) {
       height: 100vh;
     }
@@ -142,7 +142,7 @@ export const NavLinks = styled.ul`
     lg:w-auto
     lg:pl-0
     transition-all
-    duration-700
+    duration-[450ms]
     ease-in
 `}
 `
