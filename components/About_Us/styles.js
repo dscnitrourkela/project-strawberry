@@ -2,50 +2,109 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 
-const TextB = styled.p`
+
+export const MainContainer = styled.div`
 ${
   tw`
-  w-5
+  bg-[#1B1E1F]
   m-auto
-  p-4
-   ` 
+  p-5
+  `
 }
+`
 
-width: '50vw',
-margin:'auto', 
-padding:'0.5vw',
-border:'1px solid red',
-borderColor:'red'
+export const Headercntn = styled.div`
+${
+  tw`
+  p-2
+  mb-5
+  `
+}
 `;
 
-export function TextBox(){
-  return( TextB);
-
+      
+export const Headi = styled.span`
+${
+  tw`
+  text-white
+  border-b-4
+  pr-10
+  ml-5
+   ` 
 }
+border-color: #486FFD ;
+padding: 8px 50px 8px 8px;
+@media only screen and (min-width:850px){
+  ${ tw`ml-28 `}
+}
+
+`;
+
+
+export const Flexcntn = styled.div`
+  ${
+    tw`
+    inline-flex
+    flex-row
+    
+    justify-around
+    
+    w-full
+    items-center
+   
+    
+    `
+  }
+  display : flex;
+  justify-content : center;
+  justify-content: space-around;
+
+  @media only screen and (min-width:1200px){
+    ${ tw` py-5 px-28 ` }
+    
+  }
+  @media only screen and (max-width:1200px){
+    padding:0px;
+  }
+
+`;
 
 export function Img(){
     return (<img src={'https://res.cloudinary.com/dxsyc4p2j/image/upload/v1675165055/Rectangle_4492_mqcxrv.png'} ></img>);
 }
 
-          
-export const Headi = styled.p`
+export const ImgContainer = styled.div`
 ${
   tw`
-  text-white
-  border-white
-   ` 
+  flex
+  `
 }
+width: 562px;
+@media only screen and (max-width:800px){
+  display :none;
+}
+`
 
-color: '486FFD',
-borderBottom: '1px',
-borderColor: '486FFD'
+
+export const TextBox = styled.p`
+${
+  tw`
+  h-[220px]
+  w-[574px]
+  p-10
+  text-white
+  m-8
+  text-justify
+  h-full
+  
+  ` 
+}
+word-wrap:break-word;
+@media only screen and (max-width:800px){
+  border : 2.5px solid #486FFD;
+  border-radius: 10px;
+  padding: 4vw;
+}
 `;
 
-export function Contain() {
-  let cntn ={
-      backgroundColor:'#1B1E1F', color:'#FFFFFF',padding:'3vw',margin:'2vw'
-  }
-return (
-  <div style={cntn}>styles</div>
-)
-}
+
