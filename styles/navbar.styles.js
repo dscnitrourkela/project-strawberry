@@ -25,7 +25,7 @@ export const NavContainer = styled.div`
     }
   }
   .closed-nav {
-    top: -1080px;
+    top: -2080px;
     @media (max-width: 1023px) {
       height: 100vh;
     }
