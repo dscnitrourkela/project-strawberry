@@ -1,31 +1,27 @@
 import React from 'react'
-import styled from 'styled-components'
-import tw from 'twin.macro'
-import Heading3 from '../shared/Typography/Heading3'
-import Heading4 from '../shared/Typography/Heading4'
-import Body1 from '../shared/Typography/Body1'
 import Body2 from '../shared/Typography/Body2'
+import Heading3 from '../shared/Typography/Heading3'
+import { SectionLayout } from '../shared'
+
 
 //components
 import {
   MainContainer,
-  Headercntn,
-  Headi,
   Flexcntn,
   ImgContainer,
   Img,
   TextBox,
+  Underline
 } from '../../styles/aboutus.styles'
 
 export default function About() {
   return (
-    <>
-      <MainContainer>
-        <Headercntn>
-          <Heading4>
-            <Headi>About Us</Headi>
-          </Heading4>
-        </Headercntn>
+    <SectionLayout>
+      <MainContainer id="AboutUs">
+        <div>
+        <Heading3 semibold>About Us</Heading3>
+        <Underline />
+        </div>
         <Flexcntn>
           <ImgContainer>
             <Img />
@@ -45,6 +41,6 @@ export default function About() {
           </TextBox>
         </Flexcntn>
       </MainContainer>
-    </>
+    </SectionLayout>
   )
 }
