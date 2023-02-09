@@ -4,6 +4,8 @@ import Ticker from '../components/PastSponsors/Ticker'
 import FaqSection from '../components/FaqSection/Faq'
 import { NavBar } from '../components/marginals'
 import { MenuContext } from '../components/marginals/navbar/MenuContext'
+import HeroSection from '../components/HeroSection/HeroSection'
+import EventsSection from '../components/Events/Events'
 
 const IndexPage = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -14,9 +16,11 @@ const IndexPage = () => {
     <>
       <MenuContext.Provider value={{ menuOpen, toggleMenuOpen }}>
         <NavBar />
+        <HeroSection />
         <Container>
           <Ticker />
           <FaqSection />
+          <EventsSection />
         </Container>
       </MenuContext.Provider>
     </>

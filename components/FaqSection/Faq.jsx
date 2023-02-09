@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { Body1, Heading3, SectionLayout } from '../shared'
+import { Heading3, SectionLayout } from '../shared'
+
 import {
   Container,
   FaqHead,
