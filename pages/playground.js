@@ -8,6 +8,7 @@ import { MenuContext } from '../components/marginals/navbar/MenuContext'
 import HeroSection from '../components/HeroSection/HeroSection'
 import EventsSection from '../components/Events/Events'
 import OurInvestors from '../components/OurInvestors/OurInvestors'
+import PastSpeakers from '../components/PastSpeaker/HorizontalSlider'
 
 const IndexPage = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -20,13 +21,14 @@ const IndexPage = () => {
         <NavBar />
         <HeroSection />
         <Container>
-          <AboutUs/>
-          <Ticker />
+          <AboutUs />
           <FaqSection />
-          <OurInvestors/>
+          <OurInvestors />
+          <Ticker />
+          <PastSpeakers />
           <EventsSection />
         </Container>
-        <Footer/>
+        <Footer />
       </MenuContext.Provider>
     </>
   )

@@ -18,6 +18,7 @@ export const MainContainer = styled.div`
 
 export const Flexcntn = styled.div`
   ${tw`
+    m-auto
     inline-flex
     flex-row
     justify-start
@@ -28,7 +29,7 @@ export const Flexcntn = styled.div`
   @media only screen and (max-width: 800px) {
     width: 70vw;
   }
-  @media only screen and (max-width: 640px) {    
+  @media only screen and (max-width: 640px) {
     width: 89vw;
   }
 `
@@ -57,8 +58,8 @@ export const Underline = styled.div`
     h-[4px]
     bg-color-primary
     rounded-lg
-    w-[180px]
-    sm:w-[285px]
+    w-[124px]
+    sm:w-[204px]
     mt-2
 `}
 `
