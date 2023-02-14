@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { Heading3, SectionLayout, Body2 } from '../shared'
+import { SectionLayout, Body2 } from '../shared'
 import {
   BsFillArrowLeftCircleFill,
   BsFillArrowRightCircleFill,
@@ -17,11 +17,10 @@ import {
   Img,
   TextBox,
   Designation,
-  Underline,
   Container,
   Item,
-  Heading,
 } from '../../styles/speakers.styles'
+import SectionHeading from '../shared/SectionHeading'
 
 // ArrowLeft
 const ArrowLeft = () => (
@@ -177,8 +176,7 @@ function ItemContainer({ title, text, desig }) {
 const PastSpeakers = () => {
   return (
     <SectionLayout>
-      <Heading semibold>Past Speakers</Heading>
-      <Underline />
+      <SectionHeading title={Speakers.title} width={286} />
       <Container>
         <Carousel>
           {Speakers.values.map(value => (

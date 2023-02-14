@@ -143,26 +143,6 @@ export const Button = styled.button`
     width: 80px;
   }
 `
-export const Underline = styled.div`
-  ${tw`
-    h-[4px]
-    bg-color-primary
-    rounded-lg
-    w-[100px]
-    sm:w-[170px]
-    mt-2
-    mb-9
-    ml-6
-    lg:mb-24
-    lg:ml-[128px]
-`}
-`
-export const SectionTitle = styled(Heading3)`
-  ${tw`
-    pl-6
-    lg:pl-[128px]
-`}
-`
 export const FlippingCard = ({ children }) => (
   <FlippingEventsContainer>
     <FlippingEventsCard>{children}</FlippingEventsCard>

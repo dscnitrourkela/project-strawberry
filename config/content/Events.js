@@ -1,4 +1,5 @@
 export default {
+  title: 'Events',
   id: 'events',
   images: {
     logo: 'https://res.cloudinary.com/dhnkuonev/image/upload/v1674281567/apple-logo-removebg-preview_d6yqbv.png',

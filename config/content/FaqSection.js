@@ -1,4 +1,5 @@
 export default {
+  title: 'FAQs',
   id: 'faq',
   images: {
     uparrow:

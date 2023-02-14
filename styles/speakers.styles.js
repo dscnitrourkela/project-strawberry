@@ -1,11 +1,10 @@
 import styled from 'styled-components'
-import tw from 'twin.macro'
-import { Heading3 } from '../components/shared'
 
 export const Flex = styled.div`
   display: flex;
 `
 export const CarouselContainer = styled.section`
+  margin-top: -75px;
   position: relative;
   overflow: hidden;
 `
@@ -30,14 +29,11 @@ export const CarouserContainerInner = styled(Flex)`
 export const CarouselButton = styled.button`
   position: absolute;
   cursor: pointer;
-  top: 35%;
+  top: 50%;
   z-index: 10;
   border-radius: 50%;
   border: none;
   padding: 0.5rem;
-  @media (max-width: 640px) {
-    top: 25%;
-  }
 `
 
 export const LeftCarouselButton = styled(CarouselButton)`
@@ -66,7 +62,7 @@ export const Container = styled.div`
   margin-left: auto;
   margin-right: auto;
   padding: 25px 0px;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 `
 
@@ -130,25 +126,4 @@ export const Designation = styled.div`
     padding-bottom: 8px;
     font-size: 14px;
   }
-`
-export const Heading = styled(Heading3)`
-  ${tw`
-    pl-[24px]
-    lg:pl-[128px]
-  `}
-`
-export const Underline = styled.div`
-  ${tw`
-    ml-[24px]
-    lg:ml-[128px]
-    h-[4px]
-    bg-color-primary
-    rounded-lg
-    w-[166px]
-    lg:w-[286px]
-    mt-2
-    mb-0
-    sm:w-[135px]
-    lg:mb-10
-`}
 `

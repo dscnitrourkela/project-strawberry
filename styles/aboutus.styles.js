@@ -53,17 +53,6 @@ export const ImgContainer = styled.div`
   }
 `
 
-export const Underline = styled.div`
-  ${tw`
-    h-[4px]
-    bg-color-primary
-    rounded-lg
-    w-[124px]
-    sm:w-[204px]
-    mt-2
-`}
-`
-
 export const TextBox = styled.div`
   ${tw`
   h-[220px]

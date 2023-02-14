@@ -16,6 +16,7 @@ import {
   Underline,
   Container,
 } from '../../styles/ourinvestors.styles'
+import SectionHeading from '../shared/SectionHeading'
 
 // ArrowLeft
 const ArrowLeft = () => (
@@ -154,8 +155,7 @@ const Carousel = ({ children }) => {
 const Slider = () => {
   return (
     <SectionLayout>
-      <SectionTitle semibold>Our Investors</SectionTitle>
-      <Underline />
+      <SectionHeading title={Investors.title} width={286} />
       <Container>
         <Carousel>
           {Investors.Investors.map(Investor => (

@@ -8,15 +8,13 @@ import {
   Logo,
   FrontText,
   Back,
-  Underline,
-  SectionTitle,
   Button,
 } from '../../styles/events.styles'
+import SectionHeading from '../shared/SectionHeading'
 const EventsSection = () => {
   return (
     <SectionLayout>
-      <SectionTitle semibold>Events</SectionTitle>
-      <Underline />
+      <SectionHeading title={Events.title} width={186} />
       <EventsContainer>
         {Events.data.map(item => (
           <FlippingCard>

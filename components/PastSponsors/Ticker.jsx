@@ -7,9 +7,8 @@ import {
   TickerMover,
   ItemContainer,
   TickerIcon,
-  SectionTitle,
-  Underline,
 } from '../../styles/sponsors.style'
+import SectionHeading from '../shared/SectionHeading'
 
 function TickerItem({ source, alt, size }) {
   return (
@@ -23,8 +22,7 @@ function TickerItem({ source, alt, size }) {
 function Ticker() {
   return (
     <SectionLayout>
-      <SectionTitle semibold>Past Sponsors</SectionTitle>
-      <Underline />
+      <SectionHeading title={sponsors.title} width={285} />
       <TickerContainer>
         <TickerMover>
           {[...sponsors.alpha, ...sponsors.beta].map(({ name, src, width }) => (

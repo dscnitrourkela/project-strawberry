@@ -1,4 +1,5 @@
 export default {
+  title: 'Past Speakers',
   values: [
     { title: 'First', desig: 'Co-Founder Design X', text: 'First text' },
     { title: 'Second', desig: 'Co-Founder Design X', text: 'Second text' },

@@ -5,7 +5,7 @@ import { Heading3, Button } from '../components/shared'
 export const Hero = styled.section`
   ${tw`
     lg:pt-[210px]
-    bg-[url('https://res.cloudinary.com/dhnkuonev/image/upload/v1674444891/stem-list-EVgsAbL51Rk-unsplash_1_qyakrg.png')]
+    bg-[url('https://res.cloudinary.com/drpkgjnij/image/upload/v1676356798/Ashutosh%20Rath/stem-list-EVgsAbL51Rk-unsplash_1_edp6ld.png')]
     bg-cover
     h-screen
     w-full

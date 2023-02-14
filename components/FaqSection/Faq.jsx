@@ -7,10 +7,10 @@ import {
   FaqContainer,
   FaqMap,
   Image,
-  Underline,
   FaqQuestion,
 } from '../../styles/faq.styles'
 import { FaqData } from '../../config/index.js'
+import SectionHeading from '../shared/SectionHeading'
 
 function FaqSection() {
   const [accordion, setActiveAccordion] = useState(-1)
@@ -26,9 +26,8 @@ function FaqSection() {
   return (
     <>
       <SectionLayout>
+        <SectionHeading title={FaqData.title} width={165} />
         <Container>
-          <Heading3 semibold>FAQs</Heading3>
-          <Underline />
           <FaqContainer>
             {FaqData.questions.map((item, index) => (
               <FaqMap key={index} onClick={() => toggleAccordion(index)}>
