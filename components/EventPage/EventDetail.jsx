@@ -42,7 +42,7 @@ function EventDetail({
           <CompositeContainer>
             <Heading4 semibold>Prizes</Heading4>
             <PrizesAmount>
-              Goodies worth<span>{prize}</span>
+              Goodies worth<span> {prize}</span>
             </PrizesAmount>
           </CompositeContainer>
           <CompositeContainer>
