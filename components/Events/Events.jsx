@@ -9,8 +9,10 @@ import {
   FrontText,
   Back,
   Button,
+  BackText,
 } from '../../styles/events.styles'
 import SectionHeading from '../shared/SectionHeading'
+import Button1 from '../shared/Button1'
 const EventsSection = () => {
   return (
     <SectionLayout>
@@ -23,7 +25,10 @@ const EventsSection = () => {
               <FrontText>{item.content}</FrontText>
             </Front>
             <Back>
-              <Button>Label</Button>
+              <BackText>{item.backcontent}</BackText>
+              <Button1 small cover>
+                Label
+              </Button1>
             </Back>
           </FlippingCard>
         ))}

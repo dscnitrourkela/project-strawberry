@@ -45,8 +45,8 @@ export function Img() {
 }
 
 export const ImgContainer = styled.div`
-  ${tw`
-  `}
+  border: 2px solid #486ffd;
+  border-radius: 16px;
   max-width: 562px;
   @media only screen and (max-width: 1024px) {
     display: none;

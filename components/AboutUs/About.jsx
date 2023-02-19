@@ -10,7 +10,6 @@ import {
   ImgContainer,
   Img,
   TextBox,
-  Underline,
 } from '../../styles/aboutus.styles'
 import SectionHeading from '../shared/SectionHeading'
 

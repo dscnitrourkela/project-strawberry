@@ -2,7 +2,6 @@ import React from 'react'
 
 import styled from 'styled-components'
 import tw from 'twin.macro'
-import Body2 from './Typography/Body2'
 
 const SectionContainer = styled.div`
   ${tw`
@@ -14,19 +13,12 @@ const SectionContainer = styled.div`
     flex-col
     items-start
     justify-center
-    mt-40
+    mt-14
+    lg:mt-28
   `}
 `
 
-export const Description = styled(Body2)`
-  ${tw`
-    mt-2
-    w-3/4
-    md:w-full
-  `}
-`
-
-const Section = ({ children, id, title }) => (
+const Section = ({ children, id }) => (
   <SectionContainer id={id}>{children}</SectionContainer>
 )
 

@@ -6,7 +6,7 @@ export const Container = styled.section`
   ${tw`
   min-w-full
   lg:px-[128px]
-  px-8
+  px-6
 `}
 `
 export const Image = styled.img`

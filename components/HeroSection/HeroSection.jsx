@@ -1,13 +1,7 @@
 import React from 'react'
 import { Heading1, Heading4 } from '../shared'
-import {
-  Hero,
-  TextBox,
-  Date,
-  Button1,
-  Button2,
-  ButtonContainer,
-} from '../../styles/hero.styles'
+import { Hero, TextBox, Date, ButtonContainer } from '../../styles/hero.styles'
+import Button1 from '../shared/Button1'
 
 function HeroSection() {
   return (
@@ -19,7 +13,7 @@ function HeroSection() {
       </TextBox>
       <ButtonContainer>
         <Button1>Label</Button1>
-        <Button2>Label</Button2>
+        <Button1 cover>Label</Button1>
       </ButtonContainer>
     </Hero>
   )
