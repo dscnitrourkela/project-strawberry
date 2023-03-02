@@ -14,17 +14,13 @@ export const EventContainer = styled.div`
     py-3
     sm:px-6
     px-3
-    overflow-y-auto
-    max-h-[90vh]
     mx-auto
-    mt-[56px]
-    mb-[30px]
-    sm:mb-[56px]
-    sm:mt-[0]
     border-[2px]
     border-color-primary
     sm:w-auto
     w-[300px]
+    max-w-[900px]
+    rounded-[16px]
   `}
 `
 
@@ -45,6 +41,7 @@ export const EventImage = styled.img`
     object-contain
     border-[2px]
     border-color-primary
+    rounded-[16px]
   `}
 `
 

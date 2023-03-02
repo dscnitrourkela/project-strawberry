@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { NavBar, Footer } from '../components/marginals'
 import EventDetail from '../components/EventPage/EventDetail'
 import EventDetails from '../config/content/EventDetails'
-import { Container } from '../styles/Common.styles'
+import { Container } from '../styles/event.page.styles'
 import { MenuContext } from '../components/marginals/navbar/MenuContext'
 
 function events() {
