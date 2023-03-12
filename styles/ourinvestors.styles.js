@@ -132,7 +132,7 @@ export const CardContainer = styled.div`
   justify-content: start;
   align-items: center;
   border-radius: 16px;
-  transition: width 500ms;
+  transition: width 800ms;
   overflow: hidden;
   @media (max-width: 640px) {
     height: 150px;
