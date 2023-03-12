@@ -3,7 +3,6 @@ import Body2 from '../shared/Typography/Body2'
 import Heading3 from '../shared/Typography/Heading3'
 import { SectionLayout } from '../shared'
 
-
 //components
 import {
   MainContainer,
@@ -11,17 +10,14 @@ import {
   ImgContainer,
   Img,
   TextBox,
-  Underline
 } from '../../styles/aboutus.styles'
+import SectionHeading from '../shared/SectionHeading'
 
 export default function About() {
   return (
     <SectionLayout>
+      <SectionHeading title={'About Us'} width={220} />
       <MainContainer id="AboutUs">
-        <div>
-        <Heading3 semibold>About Us</Heading3>
-        <Underline />
-        </div>
         <Flexcntn>
           <ImgContainer>
             <Img />

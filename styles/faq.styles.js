@@ -5,9 +5,8 @@ import { Body1 } from '../components/shared'
 export const Container = styled.section`
   ${tw`
   min-w-full
-  lg:pl-[128px]
-  lg:pr-[228px]
-  px-8
+  lg:px-[128px]
+  px-6
 `}
 `
 export const Image = styled.img`

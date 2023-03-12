@@ -14,5 +14,5 @@ export const Container = styled.div`
     min-h-screen
   `}
   height: fit-content;
-  margin: 15% auto 10%;
+  margin: 0 auto 10% auto;
 `

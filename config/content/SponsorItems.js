@@ -3,7 +3,7 @@
 
 export default {
   id: 'sponsors',
-  title: 'Our Awesome Sponsors',
+  title: 'Past Sponsors',
   content:
     'Our love for open source and drive to make an impact materialized as HackNITR 4.0. Backed by likes of participating students, we grew steadily to organize hackathons and support social initiatives. Today,we bring you the opportunity to collaborate with us on our next endeavour.',
   alpha: [

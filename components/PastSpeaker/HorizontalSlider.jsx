@@ -1,21 +1,25 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { SectionLayout } from '../shared'
+import { SectionLayout, Body2 } from '../shared'
 import {
   BsFillArrowLeftCircleFill,
   BsFillArrowRightCircleFill,
 } from 'react-icons/bs'
-import InvestorCard from './InvestorCard'
-import Investors from '../../config/content/Investors'
+
+import { Speakers } from '../../config'
+
 import {
   CarouselContainer,
   CarouserContainerInner,
   LeftCarouselButton,
   RightCarouselButton,
   CarouselItem,
-  SectionTitle,
-  Underline,
+  FrontBackground,
+  Img,
+  TextBox,
+  Designation,
   Container,
-} from '../../styles/ourinvestors.styles'
+  Item,
+} from '../../styles/speakers.styles'
 import SectionHeading from '../shared/SectionHeading'
 
 // ArrowLeft
@@ -152,18 +156,34 @@ const Carousel = ({ children }) => {
   )
 }
 
-const Slider = () => {
+function ItemContainer({ title, text, desig }) {
+  return (
+    <Item>
+      <FrontBackground />
+      <Img
+        src="https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88672068827eaeeab540f584b883cc66&auto=format&fit=crop&w=1164&q=80"
+        alt=""
+      />
+      <TextBox>
+        <h3>{title}</h3>
+        <Designation>{desig}</Designation>
+        <Body2>{text}</Body2>
+      </TextBox>
+    </Item>
+  )
+}
+
+const PastSpeakers = () => {
   return (
     <SectionLayout>
-      <SectionHeading title={Investors.title} width={286} />
+      <SectionHeading title={Speakers.title} width={286} />
       <Container>
         <Carousel>
-          {Investors.Investors.map(Investor => (
-            <InvestorCard
-              name={Investor.name}
-              desig={Investor.desig}
-              desc={Investor.desc}
-              pic={Investor.pic}
+          {Speakers.values.map(value => (
+            <ItemContainer
+              title={value.title}
+              desig={value.desig}
+              text={value.text}
             />
           ))}
         </Carousel>
@@ -172,4 +192,4 @@ const Slider = () => {
   )
 }
 
-export default Slider
+export default PastSpeakers

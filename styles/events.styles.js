@@ -1,17 +1,18 @@
 import styled from 'styled-components'
 import tw from 'twin.macro'
-import { Heading3 } from '../components/shared'
+import { Heading3, Body2 } from '../components/shared'
 export const EventsContainer = styled.div`
   ${tw`
   grid
-  gap-x-5
+  gap-4
+  md:gap-x-10
   gap-y-8
   m-auto
   pb-4
  `}
   grid-template-columns: repeat(3, 384px);
   grid-template-rows: repeat(3, 260px);
-  @media (max-width: 1200px) {
+  @media (max-width: 1300px) {
     grid-template-columns: repeat(2, 384px);
     grid-template-rows: repeat(4, 260px);
   }
@@ -78,6 +79,20 @@ export const FrontText = styled(Heading3)`
     `}
   }
 `
+export const BackText = styled(Body2)`
+  ${tw`
+  pb-24
+  px-4`}
+  @media (max-width: 844px) {
+    ${tw`
+    text-base
+    pb-8
+    px-2
+    `}
+    line-height: 12px;
+    font-size: 10px;
+  }
+`
 
 export const Front = styled(EventsFront)`
   ${tw`
@@ -108,8 +123,8 @@ export const Back = styled(EventsBack)`
  `}
   @media (max-width: 374px) {
     ${tw`
-  w-[120px]
-  h-[120px]
+    w-[120px]
+    h-[120px]
   `}
   }
 `
@@ -127,42 +142,6 @@ export const Logo = styled.img`
   }
 `
 
-export const Button = styled.button`
-  height: 50px;
-  width: 120px;
-  background-color: transparent;
-  color: #f3f3f3;
-  border: 2px solid #486ffd;
-  border-radius: 5px;
-  padding: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  @media (max-width: 850px) {
-    height: 40px;
-    width: 80px;
-  }
-`
-export const Underline = styled.div`
-  ${tw`
-    h-[4px]
-    bg-color-primary
-    rounded-lg
-    w-[100px]
-    sm:w-[170px]
-    mt-2
-    mb-9
-    ml-6
-    lg:mb-24
-    lg:ml-[128px]
-`}
-`
-export const SectionTitle = styled(Heading3)`
-  ${tw`
-    pl-6
-    lg:pl-[128px]
-`}
-`
 export const FlippingCard = ({ children }) => (
   <FlippingEventsContainer>
     <FlippingEventsCard>{children}</FlippingEventsCard>

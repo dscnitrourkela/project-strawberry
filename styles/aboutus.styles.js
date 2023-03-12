@@ -18,6 +18,7 @@ export const MainContainer = styled.div`
 
 export const Flexcntn = styled.div`
   ${tw`
+    m-auto
     inline-flex
     flex-row
     justify-start
@@ -28,7 +29,7 @@ export const Flexcntn = styled.div`
   @media only screen and (max-width: 800px) {
     width: 70vw;
   }
-  @media only screen and (max-width: 640px) {    
+  @media only screen and (max-width: 640px) {
     width: 89vw;
   }
 `
@@ -44,23 +45,12 @@ export function Img() {
 }
 
 export const ImgContainer = styled.div`
-  ${tw`
-  `}
+  border: 2px solid #486ffd;
+  border-radius: 16px;
   max-width: 562px;
   @media only screen and (max-width: 1024px) {
     display: none;
   }
-`
-
-export const Underline = styled.div`
-  ${tw`
-    h-[4px]
-    bg-color-primary
-    rounded-lg
-    w-[180px]
-    sm:w-[285px]
-    mt-2
-`}
 `
 
 export const TextBox = styled.div`
