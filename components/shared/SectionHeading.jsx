@@ -16,7 +16,7 @@ const Underline = styled.div`
     bg-color-primary
     rounded-lg
     mt-2
-    mb-9
+    mb-14
     lg:mb-20
 `}
   width: ${props => `${props.width}px`};
