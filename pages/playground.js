@@ -22,11 +22,11 @@ const IndexPage = () => {
         <HeroSection />
         <Container>
           <AboutUs />
-          <FaqSection />
+          <EventsSection />
+          <PastSpeakers />
           <OurInvestors />
           <Ticker />
-          <PastSpeakers />
-          <EventsSection />
+          <FaqSection />
         </Container>
         <Footer />
       </MenuContext.Provider>
