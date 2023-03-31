@@ -10,39 +10,52 @@ export default {
   questions: [
     {
       id: 1,
-      question: 'What makes blockchain trustworthy?',
+      question:
+        'What is National Entrepreneur Summit [NES]’s Entrepreneurship Event, and why should I attend?      ',
       answer:
-        'There are three sides to this answer. Firstly, nobody but the owner of the data can access it without permission. Thus, it is a safe way to protect data from third parties who should not see the information. Secondly, the data can be tracked at any time. It comes with a timestamp which indicates when the information was written on the blockchain and it is always available for fetching. ',
+        "National Entrepreneur Summit [NES]’s Entrepreneurship Event is an exciting opportunity for students to showcase their creativity, innovation, and entrepreneurial spirit. With a wide range of events and activities, including Shark Tank, Hackathon, and IPL Auction, there is something for everyone. Plus, you'll have the chance to network with industry professionals and potentialinvestors, learn new skills, and compete for some amazing prizes. So don't miss out on this incredibleopportunity to launch your entrepreneurial career!",
     },
     {
       id: 2,
-      question: 'Why Do You Want to Work at This Company?',
+      question:
+        'Who can attend the event, and do I need to have prior experience in entrepreneurship to participate?',
       answer:
-        'Fusce et imperdiet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ipsum erat, ullamcorper nec bibendum aliquam, commodo ac enim. In a aliquet enim, nec vehicula ligula. Aenean non magna sapien. Integer vel massa vulputate, varius nunc nec, malesuada arcu. ',
+        "The entrepreneurship event is open to all students who are interested in entrepreneurship, innovation, and business. Whether you're a seasoned entrepreneur or just getting started, there's something for everyone. Plus, you'll have the chance to learn new skills, make connections, and have some fun along the way. So don't worry if you don't have prior experience – everyone is welcome!",
     },
     {
       id: 3,
-      question: 'What Are Your Greatest Strengths?',
+      question:
+        'Can I compete in multiple events, or do I need to choose just one?',
       answer:
-        'Fusce et imperdiet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ipsum erat, ullamcorper nec bibendum aliquam, commodo ac enim. In a aliquet enim, nec vehicula ligula. Aenean non magna sapien. Integer vel massa vulputate, varius nunc nec, malesuada arcu. ',
+        " You are welcome to participate in as many events as you like! We encourage you to take advantage of all the opportunities available and showcase your skills in multiple events. With such a diverse range of events, there's something for everyone – so go ahead and sign up for as many as you want!",
     },
     {
       id: 4,
-      question: 'Can You Explain Why You Changed Career Paths?',
+      question:
+        'Will there be any opportunities to network with industry professionals or potential investors at the event?',
       answer:
-        'Fusce et imperdiet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ipsum erat, ullamcorper nec bibendum aliquam, commodo ac enim. In a aliquet enim, nec vehicula ligula. Aenean non magna sapien. Integer vel massa vulputate, varius nunc nec, malesuada arcu. ',
+        " Yes, there will be plenty of opportunities to network with industry professionals and potential investors at the entrepreneurship event. With a range of highlight sessions, job fairs, and networking events, you'll have the chance to meet some amazing people in the business and entrepreneurship world. Who knows – you might even meet your future investor or mentor!",
     },
     {
       id: 5,
-      question: 'Can You Explain Why You Changed Career Paths?',
+      question:
+        'How can I register for the entrepreneurship event, and what is the registration deadline?',
       answer:
-        'Fusce et imperdiet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ipsum erat, ullamcorper nec bibendum aliquam, commodo ac enim. In a aliquet enim, nec vehicula ligula. Aenean non magna sapien. Integer vel massa vulputate, varius nunc nec, malesuada arcu. ',
+        " Registration for the entrepreneurship event is easy – simply visit our website and follow the instructions to sign up. The registration deadline is [insert deadline], so don't wait too long to secure your spot!",
     },
     {
       id: 6,
-      question: 'Can You Explain Why You Changed Career Paths?',
+      question:
+        'Are there any fees associated with attending or participating in the event?',
       answer:
-        'Fusce et imperdiet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ipsum erat, ullamcorper nec bibendum aliquam, commodo ac enim. In a aliquet enim, nec vehicula ligula. Aenean non magna sapien. Integer vel massa vulputate, varius nunc nec, malesuada arcu. ',
+        'No, there are no fees associated with attending or participating in the entrepreneurship event. We believe that everyone should have the opportunity to showcase their skills and pursue their entrepreneurial dreams, regardless of financial means. So come on out and join us for a greattime!',
+    },
+    {
+      id: 7,
+      question:
+        'What kind of prizes or awards will be given out to winners of the various events and competitions?',
+      answer:
+        " There will be a range of amazing prizes and awards given out to winners of the various events and competitions. From cash prizes to mentorship opportunities, we've got some great incentives to showcase your skills and creativity. So bring your A-game and compete for a chance to win big!",
     },
   ],
 }

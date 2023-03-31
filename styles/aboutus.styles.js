@@ -13,6 +13,7 @@ export const MainContainer = styled.div`
   justify-start
   gap-y-[32px]
   sm:gap-y-[48px]
+ 
   `}
 `
 
@@ -55,16 +56,36 @@ export const ImgContainer = styled.div`
 
 export const TextBox = styled.div`
   ${tw`
-  h-[220px]
+  h-[330px] 
+  overflow-y-auto
   w-[574px]
   text-white
   text-justify
-  h-full
   `}
   word-wrap:break-word;
   @media only screen and (max-width: 1024px) {
     border: 2.5px solid #486ffd;
     border-radius: 10px;
     padding: 4vw;
+  }
+  &::-webkit-scrollbar {
+    padding-left: 4px;
+    width: 15px;
+    height: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #486ffd;
+    border-radius: 100vh;
+    border: 5px solid #212121;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #ffdada;
   }
 `

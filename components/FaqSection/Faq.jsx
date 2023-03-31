@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
-import { Heading3, SectionLayout } from '../shared'
-
+import { SectionLayout } from '../shared'
 import {
   Container,
   FaqHead,
   FaqContainer,
   FaqMap,
-  Image,
   FaqQuestion,
 } from '../../styles/faq.styles'
 import { FaqData } from '../../config/index.js'
@@ -37,10 +35,34 @@ function FaqSection() {
                   </FaqQuestion>
                   <div>
                     {accordion === index ? (
-                      <Image src={FaqData.images.uparrow} alt="" />
+                      <svg
+                        cursor="pointer"
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        class="h-20 w-20"
+                        height="2em"
+                        width="2em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
+                      </svg>
                     ) : (
                       <span>
-                        <Image src={FaqData.images.downarrow} alt="" />
+                        <svg
+                          stroke="currentColor"
+                          fill="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 24 24"
+                          height="2em"
+                          width="2em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path fill="none" d="M0 0h24v24H0V0z"></path>
+                          <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                        </svg>
                       </span>
                     )}
                   </div>

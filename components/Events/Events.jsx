@@ -26,7 +26,7 @@ const EventsSection = () => {
             </Front>
             <Back>
               <BackText>{item.backcontent}</BackText>
-              <Button1 small cover>
+              <Button1 className="pb-2" small cover>
                 Label
               </Button1>
             </Back>
