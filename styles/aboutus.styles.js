@@ -56,8 +56,9 @@ export const ImgContainer = styled.div`
 
 export const TextBox = styled.div`
   ${tw`
-  h-[330px] 
-  overflow-y-auto
+  lg:h-[340px] 
+  lg:overflow-y-auto
+  h-auto
   w-[574px]
   text-white
   text-justify

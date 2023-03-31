@@ -15,7 +15,7 @@ const ButtonContainer = styled.button`
   width: ${props => (props.small ? '120px' : '240px')};
   margin-right: ${props => (props.small ? '0px' : '36px')};
   border-radius: ${props => (props.small ? '4px' : '12px')};
-   :hover {
+  :hover {
     transform: scale(1.05);
     transition: all 300ms ease;
   }

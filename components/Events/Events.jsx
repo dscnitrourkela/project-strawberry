@@ -17,7 +17,7 @@ const EventsSection = () => {
   return (
     <SectionLayout>
       <SectionHeading title={Events.title} width={186} />
-      <EventsContainer>
+      <EventsContainer title="#events">
         {Events.data.map(item => (
           <FlippingCard>
             <Front key={item.id}>
@@ -26,9 +26,11 @@ const EventsSection = () => {
             </Front>
             <Back>
               <BackText>{item.backcontent}</BackText>
-              <Button1 className="pb-2" small cover>
-                Label
-              </Button1>
+              <a href={item.link}>
+                <Button1 className="pb-2" small cover>
+                  Label
+                </Button1>
+              </a>
             </Back>
           </FlippingCard>
         ))}
