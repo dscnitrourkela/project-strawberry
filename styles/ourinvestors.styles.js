@@ -85,7 +85,9 @@ export const Name = styled.div`
   leading-[17px]
   sm:leading-[29px]
   mb-[4px]
+  text-center
   sm:mb-[9px]
+  min-w-[122px]
 `}
 `
 export const Designation = styled.div`
@@ -96,6 +98,8 @@ export const Designation = styled.div`
   sm:leading-[15px]
   sm:mb-[25px]
   mb-[8px]
+  text-center
+  min-w-[132px]
 `}
 `
 export const Description = styled.div`
