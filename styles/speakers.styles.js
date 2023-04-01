@@ -7,6 +7,8 @@ export const CarouselContainer = styled.section`
   margin-top: -75px;
   position: relative;
   overflow: hidden;
+  padding-right: 24px;
+  padding-left: 24px;
 `
 
 export const CarouselItem = styled.div`
@@ -126,6 +128,8 @@ export const Designation = styled.div`
   padding-bottom: 36px;
   text-align: center;
   @media (max-width: 640px) {
+    padding-left: 4px;
+    padding-right: 4px;
     padding-bottom: 8px;
     font-size: 14px;
   }
