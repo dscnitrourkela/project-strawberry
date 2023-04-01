@@ -1,7 +1,8 @@
 import React from 'react'
-import { Heading1, Heading4 } from '../shared'
+import { Heading1 } from '../shared'
 import { Hero, TextBox, Date, ButtonContainer } from '../../styles/hero.styles'
 import Button1 from '../shared/Button1'
+import Link from 'next/link'
 
 function HeroSection() {
   return (
@@ -12,8 +13,16 @@ function HeroSection() {
         <Date semibold>7-9 April</Date>
       </TextBox>
       <ButtonContainer>
-        <Button1>Register</Button1>
-        <Button1 cover>Events</Button1>
+        <Link
+          href="https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button1>Register</Button1>
+        </Link>
+        <Link href="#events">
+          <Button1 cover>Events</Button1>
+        </Link>
       </ButtonContainer>
     </Hero>
   )

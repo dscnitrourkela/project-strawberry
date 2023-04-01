@@ -16,7 +16,7 @@ export default {
     {
       img: 'https://res.cloudinary.com/drpkgjnij/image/upload/v1680334744/Anmol%20Pattnayak/Past%20Speakers/9.Bibin_babu_2_fgid1w.jpg',
       title: 'Bibin Babu',
-      desig: 'founder of Innowork and Blockspace',
+      desig: 'Founder of Innowork and Blockspace',
       buttonLink: '/',
     },
     {

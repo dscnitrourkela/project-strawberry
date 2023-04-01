@@ -121,6 +121,7 @@ export const TextBox = styled.div`
 `
 
 export const Designation = styled.div`
+  color: #bebebe;
   padding-top: 4px;
   padding-bottom: 36px;
   text-align: center;

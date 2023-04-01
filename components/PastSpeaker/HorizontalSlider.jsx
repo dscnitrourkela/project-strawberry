@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { SectionLayout, Body2 } from '../shared'
+import { SectionLayout, Body2, Heading3 } from '../shared'
 import {
   BsFillArrowLeftCircleFill,
   BsFillArrowRightCircleFill,
@@ -160,12 +160,9 @@ function ItemContainer({ title, desig, img }) {
   return (
     <Item>
       <FrontBackground />
-      <Img
-        src={img}
-        alt="Past-Speaker-Image"
-      />
+      <Img src={img} alt="Past-Speaker-Image" />
       <TextBox>
-        <h3>{title}</h3>
+        <Heading3>{title}</Heading3>
         <Designation>{desig}</Designation>
       </TextBox>
     </Item>

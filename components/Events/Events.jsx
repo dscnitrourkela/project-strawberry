@@ -18,7 +18,7 @@ const EventsSection = () => {
   return (
     <SectionLayout>
       <SectionHeading title={Events.title} width={186} />
-      <EventsContainer title="#events">
+      <EventsContainer title="#events" id="events">
         {Events.data.map(item => (
           <FlippingCard>
             <Front key={item.id}>

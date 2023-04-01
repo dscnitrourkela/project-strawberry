@@ -32,7 +32,7 @@ export const ItemContainer = styled.div`
 export const TickerIcon = styled.img`
   ${tw`
     inline-block
-    // py-9
+    py-3
     align-middle
 `}
   transform: scale(0.8);
@@ -61,20 +61,4 @@ export const TickerMover = styled.div`
   @media (max-width: 720px) {
     animation: ${ticker} 20s linear 0s infinite;
   }
-`
-
-export const Underline = styled.div`
-  ${tw`
-    h-[4px]
-    bg-color-primary
-    rounded-lg
-    w-[180px]
-    sm:w-[285px]
-
-    mt-2
-    mb-9
-    ml-6
-    lg:mb-24
-    lg:ml-[128px]
-`}
 `
