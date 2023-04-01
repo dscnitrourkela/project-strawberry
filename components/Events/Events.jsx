@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import SectionLayout from '../shared/SectionLayout'
 import { Events } from '../../config/index.js'
 import {
@@ -26,11 +27,11 @@ const EventsSection = () => {
             </Front>
             <Back>
               <BackText>{item.backcontent}</BackText>
-              <a href={item.link}>
+              <Link href={item.link} target="_blank" rel="noopener noreferrer">
                 <Button1 className="pb-2" small cover>
                   Register
                 </Button1>
-              </a>
+              </Link>
             </Back>
           </FlippingCard>
         ))}

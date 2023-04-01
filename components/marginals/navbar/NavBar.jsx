@@ -31,7 +31,7 @@ const NavBar = () => {
       <NavContainer>
         <LogoContainer>
           <Link href="/">
-          <Logo src={navbar.logo.src} alt={navbar.logo.alt}/>
+            <Logo src={navbar.logo.src} alt={navbar.logo.alt} />
           </Link>
         </LogoContainer>
 
@@ -45,7 +45,13 @@ const NavBar = () => {
               </NavLink>
             </NavLinksContainer>
           ))}
-          <Btn>Register</Btn>
+          <Link
+            href="https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Btn>Register</Btn>
+          </Link>
         </NavLinks>
       </NavContainer>
     </Nav>
