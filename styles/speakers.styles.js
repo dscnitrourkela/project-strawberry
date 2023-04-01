@@ -103,6 +103,7 @@ export const Img = styled.img`
   border: solid #131313 4px;
   border-radius: 50%;
   margin-top: -50px;
+  object-fit: cover;
   @media (max-width: 640px) {
     border: solid #131313 3px;
     margin-top: -25px;
@@ -122,6 +123,7 @@ export const TextBox = styled.div`
 export const Designation = styled.div`
   padding-top: 4px;
   padding-bottom: 36px;
+  text-align: center;
   @media (max-width: 640px) {
     padding-bottom: 8px;
     font-size: 14px;

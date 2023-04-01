@@ -1,4 +1,5 @@
 import React, { useContext } from 'react'
+import Link from 'next/link'
 import Btn from '../../shared/Button'
 import navbar from '../../../config/content/navbar'
 import NavText from '../../shared/Typography/Button'
@@ -29,7 +30,9 @@ const NavBar = () => {
     <Nav>
       <NavContainer>
         <LogoContainer>
-          <Logo src={navbar.logo.src} alt={navbar.logo.alt} />
+          <Link href="/">
+          <Logo src={navbar.logo.src} alt={navbar.logo.alt}/>
+          </Link>
         </LogoContainer>
 
         <StyledHamburger menuOpen={menuOpen} onClick={toggleMenuOpen} />

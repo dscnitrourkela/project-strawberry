@@ -69,6 +69,9 @@ export const InvestorImage = styled.img`
   sm:mt-[41px]
   mb-[2px]
   sm:mb-[21px]
+  object-cover
+  rounded-2xl
+  overflow-hidden
 `}
 `
 
@@ -186,58 +189,4 @@ export const RightCarouselButton = styled(CarouselButton)`
     font-size: 20px;
     right: 10px;
   }
-`
-
-export const Item = styled.div`
-  background-color: #131313;
-  width: 400px;
-  height: 400px;
-  border-radius: 14px;
-  margin: 10px;
-  transition: all 0.5s;
-  &:hover {
-    transform: translateY(-40px);
-    box-shadow: 0px 0px 25px 2px #486ffd;
-  }
-  @media (max-width: 640px) {
-    width: 150px;
-    height: 200px;
-  }
-`
-
-export const FrontBackground = styled.div`
-  height: 100px;
-  background-color: #486ffd;
-  background-position: fixed;
-  background-repeat: no-repeat;
-  background-size: contain;
-  text-align: center;
-  border-top-left-radius: 14px;
-  border-top-right-radius: 14px;
-  @media (max-width: 640px) {
-    width: 150px;
-    height: 40px;
-  }
-`
-export const Img = styled.img`
-  margin: auto;
-  width: 188px;
-  height: 188px;
-  border: solid #131313 4px;
-  border-radius: 50%;
-  margin-top: -50px;
-  @media (max-width: 1024px) {
-    border: solid #131313 3px;
-    margin-top: -25px;
-    width: 80px;
-    height: 80px;
-  }
-`
-export const TextBox = styled.div`
-  padding-top: 12px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 `

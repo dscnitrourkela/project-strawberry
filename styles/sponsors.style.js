@@ -20,7 +20,7 @@ export const SectionTitle = styled(Heading3)`
 export const ItemContainer = styled.div`
   ${tw`
     inline-block
-    my-2
+    // my-2
     mx-12
     h-32
   `}
@@ -32,7 +32,7 @@ export const ItemContainer = styled.div`
 export const TickerIcon = styled.img`
   ${tw`
     inline-block
-    py-9
+    // py-9
     align-middle
 `}
   transform: scale(0.8);

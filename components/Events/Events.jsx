@@ -28,7 +28,7 @@ const EventsSection = () => {
               <BackText>{item.backcontent}</BackText>
               <a href={item.link}>
                 <Button1 className="pb-2" small cover>
-                  Label
+                  Register
                 </Button1>
               </a>
             </Back>

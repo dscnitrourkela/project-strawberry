@@ -27,10 +27,10 @@ const ButtonContainer = styled.button`
   }
 `
 
-const Button1 = ({ cover = false, small = false, hidden = false }) => (
+const Button1 = ({ cover = false, small = false, hidden = false, children }) => (
   <ButtonContainer cover={cover} small={small} hidden={hidden}>
     {/* <Link to={''}> */}
-    <Button>Label</Button>
+    <Button>{children}</Button>
     {/* </Link> */}
   </ButtonContainer>
 )
