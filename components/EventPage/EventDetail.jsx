@@ -6,14 +6,12 @@ import {
   EventImage,
   CompositeContainer,
   SubHeading,
-  PrizesAmount,
   Button,
   RightContainer,
   AboutContainer,
-  ContactContainer,
-  ContactDetails,
   Contact,
 } from '../../styles/event.details'
+import Link from 'next/link'
 
 function EventDetail({
   pic,
@@ -21,7 +19,6 @@ function EventDetail({
   subHeading,
   dateTime,
   location,
-  prize,
   desc,
   firstContact,
   secondContact,
@@ -40,13 +37,14 @@ function EventDetail({
             <Body1>{location}</Body1>
           </CompositeContainer>
           <CompositeContainer>
-            <Heading4 semibold>Prizes</Heading4>
-            <PrizesAmount>
-              Goodies worth<span> {prize}</span>
-            </PrizesAmount>
+            <Link href="https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882"  target="_blank" rel="noopener noreferrer">
+            <Button>Register</Button>
+            </Link>
           </CompositeContainer>
           <CompositeContainer>
-            <Button>Register</Button>
+            <Heading4 semibold>Contact</Heading4>
+            <Contact>{firstContact}</Contact>
+            <Contact>{secondContact}</Contact>
           </CompositeContainer>
         </LeftContainer>
 
@@ -55,13 +53,6 @@ function EventDetail({
             <Heading3 semibold>About</Heading3>
             <Body2>{desc}</Body2>
           </AboutContainer>
-          <ContactContainer>
-            <Heading4 semibold>Contact</Heading4>
-            <ContactDetails>
-              <Contact>{firstContact}</Contact>
-              <Contact>{secondContact}</Contact>
-            </ContactDetails>
-          </ContactContainer>
         </RightContainer>
       </EventContainer>
     </>

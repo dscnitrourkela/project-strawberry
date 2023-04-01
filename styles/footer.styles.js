@@ -13,6 +13,7 @@ export const FooterContainer = styled.div`
   pl-[122px]
   pr-[120px]
   gap-x-[5.757638888888889vw]
+  gap-y-[40px]
 `}
 `
 
@@ -22,6 +23,7 @@ export const Column = styled.div`
   flex-col
   items-center
   lg:items-start
+  min-w-[300px]
 `}
 `
 
@@ -36,13 +38,25 @@ export const LogoColumn = styled.div`
 
 export const MiddleColumn = styled.div`
   ${tw`
-  hidden
-  justify-start
-  items-start
-  lg:flex
-  gap-x-[5.757638888888889vw]
+  justify-evenly
+  items-center
+  my-auto
+  flex
+  h-full
+  gap-x-[3vw]
 `}
 `
+export const CentralBar = styled.div`${tw`
+  lg:h-[60px]
+  h-[40px]
+  rounded-lg
+  bg-white
+  px-[1px]
+`}`
+
+export const Numbers = styled.div`${tw`
+  flex flex-col
+`}`
 
 export const Logo = styled.img`
   ${tw`
@@ -75,40 +89,34 @@ export const SmLogo = styled.div`
   mr-[22px]
 `}
 `
-export const ColumnHeading = styled.div`
-  ${tw`
-  text-color-primary
-  font-semibold
-  text-[20px]
-  mb-[40px]
-`}
-`
+export const CentralImgNIT = styled.img`${tw`
+  xl:w-[90px]
+  w-[70px]
+`}`
+
+export const CentralImgEcell = styled.img`${tw`
+  xl:w-[180px]
+  w-[140px]
+`}`
 
 export const ContactHeading = styled.div`
   ${tw`
   text-color-primary
   font-semibold
   text-[20px]
-  mb-[5px]
-  mt-[40px]
+  mb-[15px]
+  mt-[0px]
   lg:mt-0
-  lg:mb-[42px]
+  lg:mb-[20px]
 `}
 `
 
-export const FooterAnchor = styled.a`
-  ${tw`
-  cursor-pointer
-  mb-[18px]
-  whitespace-nowrap	
-`}
-`
 export const ContactContainer = styled.div`
   ${tw`
   flex
   justify-center
-  items-start
-  mb-[22px]
+  items-center
+  mb-[18px]
 `}
 `
 

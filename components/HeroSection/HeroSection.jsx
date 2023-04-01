@@ -12,8 +12,8 @@ function HeroSection() {
         <Date semibold>7-9 April</Date>
       </TextBox>
       <ButtonContainer>
-        <Button1>Label</Button1>
-        <Button1 cover>Label</Button1>
+        <Button1>Register</Button1>
+        <Button1 cover>Events</Button1>
       </ButtonContainer>
     </Hero>
   )

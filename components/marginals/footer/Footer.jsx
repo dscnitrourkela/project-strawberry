@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import {
   FaFacebookF,
   FaTwitter,
@@ -20,11 +21,13 @@ import {
   SmLogos,
   SmLogo,
   Description,
-  ColumnHeading,
   ContactHeading,
-  FooterAnchor,
   ContactContainer,
   ContactLogo,
+  CentralImgNIT,
+  CentralImgEcell,
+  CentralBar,
+  Numbers,
 } from '../../../styles/footer.styles'
 
 function Footer() {
@@ -39,39 +42,43 @@ function Footer() {
         </div>
         <Description>
           <BodyText>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam
+            National Entrepreneur Summit,
+            National Institute of Technology, Rourkela
           </BodyText>
         </Description>
         <SmLogos>
           <SmLogo>
+            <Link href="https://www.facebook.com/ecellnitr" target="_blank" rel="noopener noreferrer">
             <FaFacebookF />
+            </Link>
           </SmLogo>
           <SmLogo>
+            <Link href="https://twitter.com/ECellNITR" target="_blank" rel="noopener noreferrer">
             <FaTwitter />
+            </Link>
           </SmLogo>
           <SmLogo>
+            <Link href="https://instagram.com/ecell_nitrourkela" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
+            </Link>
           </SmLogo>
           <SmLogo>
+            <Link href="https://www.linkedin.com/company/entrepreneurship-cell-nit-rourkela/" target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn />
+            </Link>
           </SmLogo>
           <SmLogo>
+            <Link href="https://www.youtube.com/@Ecellnitrkl" target="_blank" rel="noopener noreferrer">
             <FaYoutube />
+            </Link>
           </SmLogo>
         </SmLogos>
       </LogoColumn>
 
       <MiddleColumn>
-        {footerContent.FooterColumns.map(column => (
-          <Column>
-            <ColumnHeading>{column.heading}</ColumnHeading>
-            {column.FooterLinks.map(links => (
-              <FooterAnchor>
-                <BodyText>{links.name}</BodyText>
-              </FooterAnchor>
-            ))}
-          </Column>
-        ))}
+        <CentralImgNIT src="https://res.cloudinary.com/drpkgjnij/image/upload/v1680343345/Anmol%20Pattnayak/NITr-02_cldtpg.png"/>
+        <CentralBar/>
+        <CentralImgEcell src="https://res.cloudinary.com/drpkgjnij/image/upload/v1680343934/Anmol%20Pattnayak/Ecell-02_hlufqq.png"/>
       </MiddleColumn>
 
       <Column>
@@ -80,19 +87,23 @@ function Footer() {
           <ContactLogo>
             <HiOutlineMail />
           </ContactLogo>
-          <BodyText>contact@company.com</BodyText>
+          <BodyText>nes.ecell.nitrkl@gmail.com</BodyText>
         </ContactContainer>
         <ContactContainer>
           <ContactLogo>
             <IoCallOutline />
           </ContactLogo>
-          <BodyText>(414) 687 - 5892</BodyText>
+          <Numbers>
+            <BodyText>+91 7719861972</BodyText>
+            <BodyText>+91 8319493047</BodyText>
+            <BodyText>+91 8763637518</BodyText>
+          </Numbers>
         </ContactContainer>
         <ContactContainer>
           <ContactLogo>
             <HiOutlineLocationMarker />
           </ContactLogo>
-          <BodyText>794 Mcallister St San Francisco, 94102</BodyText>
+          <BodyText>NIT Rourkela, Odisha, India</BodyText>
         </ContactContainer>
       </Column>
     </FooterContainer>

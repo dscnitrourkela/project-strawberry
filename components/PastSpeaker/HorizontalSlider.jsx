@@ -156,18 +156,17 @@ const Carousel = ({ children }) => {
   )
 }
 
-function ItemContainer({ title, text, desig }) {
+function ItemContainer({ title, desig, img }) {
   return (
     <Item>
       <FrontBackground />
       <Img
-        src="https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88672068827eaeeab540f584b883cc66&auto=format&fit=crop&w=1164&q=80"
-        alt=""
+        src={img}
+        alt="Past-Speaker-Image"
       />
       <TextBox>
         <h3>{title}</h3>
         <Designation>{desig}</Designation>
-        <Body2>{text}</Body2>
       </TextBox>
     </Item>
   )
@@ -175,7 +174,7 @@ function ItemContainer({ title, text, desig }) {
 
 const PastSpeakers = () => {
   return (
-    <SectionLayout>
+    <SectionLayout id="Speakers">
       <SectionHeading title={Speakers.title} width={286} />
       <Container>
         <Carousel>
@@ -183,7 +182,7 @@ const PastSpeakers = () => {
             <ItemContainer
               title={value.title}
               desig={value.desig}
-              text={value.text}
+              img={value.img}
             />
           ))}
         </Carousel>

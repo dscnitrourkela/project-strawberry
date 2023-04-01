@@ -21,7 +21,7 @@ function TickerItem({ source, alt, size }) {
 }
 function Ticker() {
   return (
-    <SectionLayout>
+    <SectionLayout id="Sponsors">
       <SectionHeading title={sponsors.title} width={285} />
       <TickerContainer>
         <TickerMover>

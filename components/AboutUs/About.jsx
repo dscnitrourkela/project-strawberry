@@ -16,9 +16,9 @@ import { AboutContent } from '../../config/index'
 
 export default function About() {
   return (
-    <SectionLayout>
+    <SectionLayout id="AboutUs">
       <SectionHeading title={'About Us'} width={220} />
-      <MainContainer id="AboutUs">
+      <MainContainer>
         <Flexcntn>
           <ImgContainer>
             <Img />

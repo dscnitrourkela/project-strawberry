@@ -1,4 +1,5 @@
 import React, { useContext } from 'react'
+import Link from 'next/link'
 import Btn from '../../shared/Button'
 import navbar from '../../../config/content/navbar'
 import NavText from '../../shared/Typography/Button'
@@ -29,7 +30,9 @@ const NavBar = () => {
     <Nav>
       <NavContainer>
         <LogoContainer>
-          <Logo src={navbar.logo.src} alt={navbar.logo.alt} />
+          <Link href="/">
+            <Logo src={navbar.logo.src} alt={navbar.logo.alt} />
+          </Link>
         </LogoContainer>
 
         <StyledHamburger menuOpen={menuOpen} onClick={toggleMenuOpen} />
@@ -42,7 +45,13 @@ const NavBar = () => {
               </NavLink>
             </NavLinksContainer>
           ))}
-          <Btn>Register</Btn>
+          <Link
+            href="https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Btn>Register</Btn>
+          </Link>
         </NavLinks>
       </NavContainer>
     </Nav>

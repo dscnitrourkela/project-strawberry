@@ -18,6 +18,7 @@ export const EventContainer = styled.div`
     border-[2px]
     border-color-primary
     sm:w-auto
+    sm:max-w-[845px]
     w-[300px]
     max-w-[900px]
     rounded-[16px]
@@ -57,17 +58,6 @@ export const SubHeading = styled(Heading4)`
   ${tw`text-[#AAAAAA]`}
 `
 
-export const PrizesAmount = styled(Body1)`
-  ${tw`
-    text-[#AAAAAA]
-  `}
-  &>span {
-    ${tw`
-        text-[#D4D4D4]
-    `}
-  }
-`
-
 export const RightContainer = styled.div`
   ${tw`
     col-span-5
@@ -93,25 +83,6 @@ export const AboutContainer = styled.div`
     border-[2px]
     border-color-primary
     bg-[rgba(41, 49, 77, 0.4)]
-  `}
-`
-
-export const ContactContainer = styled.div`
-  ${tw`
-    flex 
-    flex-col
-    w-full
-    text-left
-  `}
-`
-
-export const ContactDetails = styled.div`
-  ${tw`
-    flex
-    justify-between
-    flex-col
-    gap-y-[5px]
-    sm:flex-row
   `}
 `
 
