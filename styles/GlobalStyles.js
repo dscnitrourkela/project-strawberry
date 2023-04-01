@@ -5,6 +5,18 @@ const customStyles = css({
   body: {
     WebkitTapHighlightColor: theme`colors.purple.500`,
     ...tw`antialiased bg-bg-primary text-[#FFFFFF]`,
+    '&::-webkit-scrollbar': {
+      width: '12px',
+      // height: '24px',
+    },
+    '&::-webkit-scrollbar-track': {
+      background: theme`colors.gray.500`,
+    },
+    '&::-webkit-scrollbar-thumb': {
+      background: '#3761fa',
+      borderRadius: '10px',
+      border: '4px solid #486ffd',
+    },
   },
 })
 

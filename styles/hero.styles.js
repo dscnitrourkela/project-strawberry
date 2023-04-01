@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import tw from 'twin.macro'
-import { Heading3, Button1 } from '../components/shared'
+import { Heading3 } from '../components/shared'
 
 export const Hero = styled.section`
   ${tw`
@@ -23,7 +23,7 @@ export const TextBox = styled.div`
   ${tw`
     flex
     flex-col
-    text-left
+    text-center
     `}
   @media (max-width: 850px) {
     padding-top: 120px;

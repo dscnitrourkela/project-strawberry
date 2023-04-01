@@ -81,12 +81,14 @@ export const FrontText = styled(Heading3)`
 `
 export const BackText = styled(Body2)`
   ${tw`
-  pb-24
+  pt-2
+  pb-2
   px-4`}
   @media (max-width: 844px) {
     ${tw`
     text-base
-    pb-8
+    overflow-y-scroll
+    pb-4
     px-2
     `}
     line-height: 12px;

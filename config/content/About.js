@@ -1,0 +1,5 @@
+/* eslint-disable max-len */
+export default {
+  description:
+    'National Entrepreneur Summit [NES]’s Entrepreneurship Event is organized by a team of passionate and dedicated students who are committed to promoting entrepreneurship and innovation on campus. Our team consists of students from a variety of backgrounds, including business, engineering, and the arts. Our goal is to encourage entrepreneurship and equip students with the necessary resources to thrive as entrepreneurs. Our event is supported by the National Entrepreneur Summit [NES], which has a long history of supporting entrepreneurship and innovation. With state-of-the-art facilities, world-class faculty, and a vibrant community of students and alumni, National Entrepreneur Summit [NES] is the perfect place for aspiring entrepreneurs to learn, grow, and launch their businesses. At the National Entrepreneur Summit [NES]’s Entrepreneurship Event, we believe that anyone can be an entrepreneur, regardless of their background or experience.',
+}

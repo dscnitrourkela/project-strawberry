@@ -7,9 +7,9 @@ function HeroSection() {
   return (
     <Hero>
       <TextBox>
-        <Heading4>NIT ROURKELA'S</Heading4>
-        <Heading1 semibold>E-SUMMIT 2023</Heading1>
-        <Date semibold>28-29 January</Date>
+        {/* <Heading4>NIT ROURKELA'S</Heading4> */}
+        <Heading1 semibold>National Entrepreneur Summit 2023</Heading1>
+        <Date semibold>7-9 April</Date>
       </TextBox>
       <ButtonContainer>
         <Button1>Label</Button1>

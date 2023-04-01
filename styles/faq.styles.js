@@ -44,6 +44,7 @@ export const FaqMap = styled.div`
 
 export const FaqHead = styled.div`
   ${tw`
+  cursor-pointer
   flex
   justify-between
   items-center
