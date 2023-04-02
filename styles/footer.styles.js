@@ -10,8 +10,8 @@ export const FooterContainer = styled.div`
   lg:items-start
   lg:flex-row
   pb-[60px]
-  pl-[122px]
-  pr-[120px]
+  // pl-[122px]
+  // pr-[120px]
   gap-x-[5.757638888888889vw]
   gap-y-[40px]
 `}
@@ -46,17 +46,21 @@ export const MiddleColumn = styled.div`
   gap-x-[3vw]
 `}
 `
-export const CentralBar = styled.div`${tw`
+export const CentralBar = styled.div`
+  ${tw`
   lg:h-[60px]
   h-[40px]
   rounded-lg
   bg-white
   px-[1px]
-`}`
+`}
+`
 
-export const Numbers = styled.div`${tw`
+export const Numbers = styled.div`
+  ${tw`
   flex flex-col
-`}`
+`}
+`
 
 export const Logo = styled.img`
   ${tw`
@@ -89,15 +93,19 @@ export const SmLogo = styled.div`
   mr-[22px]
 `}
 `
-export const CentralImgNIT = styled.img`${tw`
+export const CentralImgNIT = styled.img`
+  ${tw`
   xl:w-[90px]
   w-[70px]
-`}`
+`}
+`
 
-export const CentralImgEcell = styled.img`${tw`
+export const CentralImgEcell = styled.img`
+  ${tw`
   xl:w-[180px]
   w-[140px]
-`}`
+`}
+`
 
 export const ContactHeading = styled.div`
   ${tw`
@@ -126,4 +134,30 @@ export const ContactLogo = styled.div`
   text-[20px]
   mr-[6px]
 `}
+`
+
+export const FooterItems = styled.div`
+  width: full;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+`
+
+export const MadeBy = styled.div`
+  padding-left: 36px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 5px;
+`
+
+export const Ruler = styled.hr`
+  width: 85%;
+  height: 10px;
+  color: #69676;
 `

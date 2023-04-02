@@ -107,7 +107,7 @@ export const Description = styled.div`
   font-Inter
   text-[10px]
   sm:text-[16px]
-  w-full
+  w-[154px]
   sm:w-[204px]
   mt-[19px]
   sm:mt-[41px]
