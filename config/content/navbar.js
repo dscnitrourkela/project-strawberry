@@ -4,9 +4,9 @@ export default {
     alt: 'logo',
   },
   Links: [
-    { id: 'AboutUs', name: 'About us', link: '/playground#AboutUs' },
+    { id: 'AboutUs', name: 'About us', link: '/#AboutUs' },
     { id: 'Events', name: 'Events', link: '/events' },
-    { id: 'Speakers', name: 'Speakers', link: '/playground#Speakers' },
-    { id: 'Sponsors', name: 'Sponsors', link: '/playground#Sponsors' },
+    { id: 'Speakers', name: 'Speakers', link: '/#Speakers' },
+    { id: 'Sponsors', name: 'Sponsors', link: '/#Sponsors' },
   ],
 }

@@ -10,10 +10,10 @@ const customStyles = css({
       // height: '24px',
     },
     '&::-webkit-scrollbar-track': {
-      background: theme`colors.gray.500`,
+      background: theme`colors.gray.900`,
     },
     '&::-webkit-scrollbar-thumb': {
-      background: '#3761fa',
+      background: '#486ffd',
       borderRadius: '10px',
       border: '4px solid #486ffd',
     },

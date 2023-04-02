@@ -37,7 +37,7 @@ export const ButtonContainer = styled.div`
     pt-14
 `}
   @media (max-width: 850px) {
-    padding-top: 120px;
+    padding-top: 50px;
     flex-direction: column;
   }
 `
