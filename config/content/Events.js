@@ -7,65 +7,107 @@ export default {
   data: [
     {
       id: 1,
-      content: 'Sharktank',
+      content: 'Startup Sprint',
       backcontent:
-        'At National Entrepreneur Summit [NES]’s Shark Tank event, student entrepreneurs will pitch their business ideas to a panel of judges, hoping to secure funding and launch their startups. It is a great opportunity network with industry professionals, and get inspired by the creativity and innovation of your peers.',
-      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+        'A hackathon for entrepreneurs and tech enthusiasts',
+      link: 'https://unstop.com/p/startup-sprint-national-e-summit-2023-nit-rourkela-660477',
     },
     {
       id: 2,
-      content: 'Hackathon',
+      content: 'Shark Tank',
       backcontent:
-        "At National Entrepreneur Summit [NES]’s Hackathon event, students will work in teams to develop innovative solutions to real-world problems, using technology and creativity to build something new and impactful. It's a great opportunity to learn, showcase your skills, and make a difference in the world.",
-      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+        "A platform for entrepreneurs to pitch to potential investors and secure funding and mentorship",
+      link: 'https://unstop.com/p/shark-tank-national-e-summit-2023-nit-rourkela-660640',
     },
     {
       id: 3,
       content: 'IPL Auction',
       backcontent:
-        "At National Entrepreneur Summit [NES]’s IPL Auction event, students will participate in a mock IPL player auction, using their knowledge of cricket and strategy to build the best team possible. It's a great opportunity to have fun, compete with your peers, and show off your cricket knowledge.",
-      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+        "A simulated auction event for cricket enthusiasts",
+      link: 'https://unstop.com/p/ipl-auction-national-e-summit-2023-nit-rourkela-660485',
     },
     {
       id: 4,
-      content: 'B Quiz',
+      content: 'Case Crunch',
       backcontent:
-        "At National Entrepreneur Summit [NES]’s B Quiz event, students will compete in a trivia competition that tests their knowledge of business, entrepreneurship, and current events. It's a great opportunity to learn new things, show off your knowledge, and have some fun along the way.",
-      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+        "An opportunity to showcase problem-solving skills and innovative thinking",
+      link: 'https://unstop.com/p/case-crunch-national-e-summit-2023-nit-rourkela-660486',
     },
     {
       id: 5,
-      content: 'Virtual Trading',
+      content: 'Ad-verse',
       backcontent:
-        "At National Entrepreneur Summit [NES]'s Virtual Trading event, students will use a virtual trading platform to buy and sell stocks, bonds, and other financial instruments, testing their skills as traders and investors. It's a great opportunity to practice your trading skills, and have fun competing against your peers.",
-      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+        "An opportunity to unleash your creativity and showcase your marketing prowess",
+      link: 'https://unstop.com/p/ad-verse-national-e-summit-2023-nit-rourkela-660487',
     },
     {
       id: 6,
-      content: 'Internship & Job Fair',
+      content: 'K12',
       backcontent:
-        "At National Entrepreneur Summit [NES]’s Internship and Job fair, students will meet the recruiters from top companies and organizations, learn about job and internship opportunities, and network with industry professionals. It's a great opportunity to make connections and launch your career.",
-      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+        "An inter-school academic extravaganza showcasing the art of persuasive communication",
+      link: 'https://unstop.com/p/k12-national-e-summit-2023-nit-rourkela-660488',
     },
     {
       id: 7,
-      content: 'Highlight Session',
+      content: 'Entrepreneurship Conclave',
       backcontent:
-        "At National Entrepreneur Summit [NES]’s Highlight sessions, students will hear from successful entrepreneurs and industry leaders about their experiences and insights. It's a great opportunity to get inspired, learn from the best, and connect with other students who share your interests.",
-      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+        "A platform for industry experts and entrepreneurs  to collaborate, exchange ideas and gain insights to foster innovation and business growth",
+      link: 'https://unstop.com/p/entrepreneurship-conclave-national-e-summit-2023-nit-rourkela-660643',
     },
     {
       id: 8,
-      content: 'Workshops',
+      content: 'Workshop on IoT',
       backcontent:
-        "At National Entrepreneur Summit [NES]’s Workshops, there will be hands-on sessions that teach practical skills in areas such as marketing, finance, product development, and more. It's a great opportunity to meet other entrepreneurs, and gain practical insights that can help you succeed in business.",
-      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+        "Discover the endless possibilities of IoT and learn how to design, develop, and deploy smart and connected devices",
+      link: 'https://unstop.com/p/workshop-on-iot-national-e-summit-2023-nit-rourkela-660497',
     },
     {
       id: 9,
-      content: 'Fun Events',
+      content: 'Cracking the GSoC Workshop',
       backcontent:
-        "At National Entrepreneur Summit [NES]’s Fun events, students will be able to take a break from the intense competition and networking and just have some fun with their peers. It's a great opportunity to relax, socialize, and enjoy some lighthearted activities.",
+        "Workshop on cracking the prestigious Google Summer of Code by Arnab Sen, a GSoC Mentor",
+      link: 'https://unstop.com/p/coding-workshop-by-gsoc-mentor-national-e-summit-2023-nit-rourkela-660636',
+    },
+    {
+      id: 10,
+      content: 'Comedy Night',
+      backcontent:
+        "A comedy show by the standup comedy club of NIT Rourkela, Open Mic",
+      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+    },
+    {
+      id: 11,
+      content: 'Musical Night',
+      backcontent:
+        "A musical event by the Drill n Bass, Euphony and Heartbeats",
+      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+    },
+    {
+      id: 12,
+      content: 'Act',
+      backcontent:
+        "An act by the Pantomime, NIT Rourkela",
+      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+    },
+    {
+      id: 13,
+      content: 'Highlight Session 1',
+      backcontent:
+        "Talk session by successful entrepreneurs, industry experts, and thought leaders",
+      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+    },
+    {
+      id: 14,
+      content: 'Highlight Session 2',
+      backcontent:
+        "Talk session by successful entrepreneurs, industry experts, and thought leaders",
+      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+    },
+    {
+      id: 15,
+      content: 'Highlight Session 3',
+      backcontent:
+        "Talk session by successful entrepreneurs, industry experts, and thought leaders",
       link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
     },
   ],

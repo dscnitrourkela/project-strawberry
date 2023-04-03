@@ -5,13 +5,14 @@ export const FooterContainer = styled.div`
   ${tw`
   flex
   flex-col
-  justify-around
+  justify-between
   items-center
   lg:items-start
   lg:flex-row
   pb-[60px]
-  // pl-[122px]
-  // pr-[120px]
+  sm:pl-[122px]
+  sm:pr-[120px]
+  sm:w-full
   gap-x-[5.757638888888889vw]
   gap-y-[40px]
 `}
@@ -154,6 +155,7 @@ export const MadeBy = styled.div`
   justify-content: center;
   text-align: justify;
   padding-top: 5px;
+  text-align: center;
 `
 
 export const Ruler = styled.hr`
