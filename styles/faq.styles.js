@@ -65,6 +65,7 @@ export const Underline = styled.div`
 export const FaqQuestion = styled(Body1)`
   color: #e8e8e8;
   @media screen and (max-width: 437px) {
+    padding-bottom: 4px;
     width: 250px;
   }
   @media screen and (max-width: 328px) {

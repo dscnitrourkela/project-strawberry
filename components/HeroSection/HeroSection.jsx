@@ -9,7 +9,7 @@ function HeroSection() {
     <Hero>
       <TextBox>
         {/* <Heading4>NIT ROURKELA'S</Heading4> */}
-        <Heading1 semibold>National Entrepreneur Summit 2023</Heading1>
+        <Heading1 semibold>National Entrepreneurship Summit 2023</Heading1>
         <Date semibold>7-9 April</Date>
       </TextBox>
       <ButtonContainer>

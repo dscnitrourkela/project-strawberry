@@ -74,7 +74,7 @@ export const FrontText = styled(Heading3)`
   ${tw`pt-8`}
   @media (max-width: 844px) {
     ${tw`
-    text-base
+    text-sm
     pt-4
     `}
   }
