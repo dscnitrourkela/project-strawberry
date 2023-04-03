@@ -2,15 +2,15 @@ import styled from 'styled-components'
 import Button from './Typography/Button'
 
 const ButtonContainer = styled.button`
-  background: ${props => (props.cover ? '#FFDADA' : '#CB1313')};
-  border: ${props => (props.cover ? '3px solid #CB1313' : 'none')};
+  background: ${props => (props.cover ? '#1B1E1F' : '#486FFD')};
+  border: ${props => (props.cover ? '3px solid #486FFD' : 'none')};
   border: ${props =>
     props.cover
       ? props.small
-        ? '1px solid #CB1313'
-        : '3px solid #CB1313'
+        ? '1px solid #486FFD'
+        : '3px solid #486FFD'
       : 'none'};
-  color: ${props => (props.cover ? '#CB1313' : '#fff')};
+  color: ${props => (props.cover ? '#486FFD' : '#fff')};
   height: ${props => (props.small ? '50px' : '64px')};
   width: ${props => (props.small ? '120px' : '240px')};
   margin-right: ${props => (props.small ? '0px' : '36px')};
