@@ -26,6 +26,7 @@ function events() {
               prize={Detail.prize}
               firstContact={Detail.firstContact}
               secondContact={Detail.secondContact}
+              link={Detail.link}
             />
           ))}
         </Container>

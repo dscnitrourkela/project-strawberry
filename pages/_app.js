@@ -11,6 +11,7 @@ const App = ({ Component, pageProps }) => (
         rel="shortcut icon"
         href="https://res.cloudinary.com/dmofs5r4h/image/upload/v1675234629/nes_oxnksn.png"
       />
+      <title>NES</title>
     </Head>
     <GlobalStyles />
     <Component {...pageProps} />
