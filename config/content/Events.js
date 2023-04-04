@@ -56,10 +56,10 @@ export default {
     },
     {
       id: 8,
-      content: 'Workshop on IoT',
+      content: 'Virtual Trading',
       backcontent:
-        "Discover the endless possibilities of IoT and learn how to design, develop, and deploy smart and connected devices",
-      link: 'https://unstop.com/p/workshop-on-iot-national-e-summit-2023-nit-rourkela-660497',
+        "A Virtual Trading contest",
+      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
     },
     {
       id: 9,

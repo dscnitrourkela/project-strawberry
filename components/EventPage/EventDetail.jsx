@@ -22,6 +22,7 @@ function EventDetail({
   desc,
   firstContact,
   secondContact,
+  link,
 }) {
   return (
     <>
@@ -37,7 +38,7 @@ function EventDetail({
             <Body1>{location}</Body1>
           </CompositeContainer>
           <CompositeContainer>
-            <Link href="https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882"  target="_blank" rel="noopener noreferrer">
+            <Link href={link}  target="_blank" rel="noopener noreferrer">
             <Button>Register</Button>
             </Link>
           </CompositeContainer>

@@ -77,6 +77,11 @@ export const FrontText = styled(Heading3)`
     text-sm
     pt-4
     `}
+  @media (max-width: 375px) {
+    ${tw`
+    text-sm
+    pt-1
+    `}
   }
 `
 export const BackText = styled(Body2)`
