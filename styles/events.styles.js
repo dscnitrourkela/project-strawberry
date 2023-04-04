@@ -71,16 +71,16 @@ const EventsBack = styled(common)`
 `
 
 export const FrontText = styled(Heading3)`
-  ${tw`pt-8`}
+  ${tw`pt-0`}
   @media (max-width: 844px) {
     ${tw`
     text-sm
-    pt-4
+    pt-0
     `}
   @media (max-width: 375px) {
     ${tw`
     text-sm
-    pt-1
+    pt-0
     `}
   }
 `
@@ -138,13 +138,13 @@ export const Back = styled(EventsBack)`
 
 export const Logo = styled.img`
   ${tw`
-  w-24
-  h-24
+  w-28
+  h-28
 `}
   @media (max-width: 844px) {
     ${tw`
-    w-[50px]
-    h-[50px]
+    w-[60px]
+    h-[60px]
   `}
   }
 `
