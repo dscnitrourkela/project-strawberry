@@ -84,7 +84,7 @@ export default {
       location: 'NIT Rourkela',
       firstContact: 'Lohith: 8179437716',
       secondContact: 'Sriram: 9676703458',
-      desc: "A virtual trading contest is an online competition where participants can simulate trading in financial markets without risking their own money. The contest usually takes place on a virtual trading platform that provides participants with virtual funds to buy and sell financial assets such as stocks, bonds, currencies, and commodities.",
+      desc: "The Bear and Bulls club of NIT Rourkela presents \"Virtual Trading\'- an exciting event that simulates the stock market trading experience right at your fingertips. Join us at the National Entrepreneurship Summit 23 and take part in this thrilling virtual trading competition where you get to trade with virtual money and win real rewards.  Also this event contains Quiz rounds also and questions related to finance. Before the competition there will be the talk on ‘Option trading’! So this is the golden opportunity to invest the time to gain knowledge about finance. ",
       pic: 'https://res.cloudinary.com/drpkgjnij/image/upload/v1680550464/Anmol%20Pattnayak/Posters/dummy_vco8tb.jpg',
       link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
     },

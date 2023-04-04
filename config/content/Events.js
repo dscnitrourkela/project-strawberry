@@ -2,7 +2,7 @@ export default {
   title: 'Events',
   id: 'events',
   images: {
-    logo: 'https://res.cloudinary.com/dhnkuonev/image/upload/v1674281567/apple-logo-removebg-preview_d6yqbv.png',
+    logo: 'https://res.cloudinary.com/dmofs5r4h/image/upload/v1675234629/nes_oxnksn.png',
   },
   data: [
     {
@@ -58,7 +58,7 @@ export default {
       id: 8,
       content: 'Virtual Trading',
       backcontent:
-        "A Virtual Trading contest",
+        "An exciting event that simulates the stock market trading experience right at your fingertips.",
       link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
     },
     {
