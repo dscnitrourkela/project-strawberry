@@ -59,55 +59,55 @@ export default {
       content: 'Virtual Trading',
       backcontent:
         "An exciting event that simulates the stock market trading experience right at your fingertips.",
-      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+      link: 'https://unstop.com/competitions/virtual-trading-national-e-summit-2023-nit-rourkela-662275',
     },
     {
       id: 9,
-      content: 'Cracking the GSoC Workshop',
+      content: 'Cracking the Code',
       backcontent:
         "Workshop on cracking the prestigious Google Summer of Code by Arnab Sen, a GSoC Mentor",
       link: 'https://unstop.com/p/coding-workshop-by-gsoc-mentor-national-e-summit-2023-nit-rourkela-660636',
     },
     {
       id: 10,
-      content: 'Comedy Night',
-      backcontent:
-        "A comedy show by the standup comedy club of NIT Rourkela, Open Mic",
-      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
-    },
-    {
-      id: 11,
-      content: 'Musical Night',
-      backcontent:
-        "A musical event by the Drill n Bass, Euphony and Heartbeats",
-      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
-    },
-    {
-      id: 12,
-      content: 'Act',
-      backcontent:
-        "An act by the Pantomime, NIT Rourkela",
-      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
-    },
-    {
-      id: 13,
       content: 'Highlight Session 1',
       backcontent:
         "Talk session by successful entrepreneurs, industry experts, and thought leaders",
       link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
     },
     {
-      id: 14,
+      id: 11,
       content: 'Highlight Session 2',
       backcontent:
         "Talk session by successful entrepreneurs, industry experts, and thought leaders",
       link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
     },
     {
-      id: 15,
+      id: 12,
       content: 'Highlight Session 3',
       backcontent:
         "Talk session by successful entrepreneurs, industry experts, and thought leaders",
+      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+    },
+    {
+      id: 13,
+      content: 'Comedy Night',
+      backcontent:
+        "A comedy show by the standup comedy club of NIT Rourkela, Open Mic",
+      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+    },
+    {
+      id: 14,
+      content: 'Musical Night',
+      backcontent:
+        "A musical event by the Drill n Bass, Euphony and Heartbeats",
+      link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
+    },
+    {
+      id: 15,
+      content: 'Act',
+      backcontent:
+        "An act by the Pantomime, NIT Rourkela",
       link: 'https://unstop.com/p/national-entrepreneurship-summit-national-e-summit-2023-nit-rourkela-659882',
     },
   ],
